@@ -1,0 +1,125 @@
+:root {
+  /* Tragram branding */
+  --color-primary: #0f6bff;
+  --color-accent: #1ba3ff;
+  --color-midnight: #020617;
+  --color-slate: #0f172a;
+  --color-on-accent: #ffffff;
+
+  /* Theme defaults */
+  --background: var(--color-midnight);
+  --foreground: #ededed;
+
+  /* Semantic surfaces + typography */
+  --surface-page: #050910;
+  --surface-panel: rgba(255, 255, 255, 0.05);
+  --surface-panel-strong: rgba(255, 255, 255, 0.1);
+  --surface-panel-soft: rgba(255, 255, 255, 0.15);
+  --surface-panel-solid: rgba(255, 255, 255, 0.95);
+  --surface-elevated: #0a1322;
+  --surface-contrast: #141826;
+  --surface-inset: rgba(0, 0, 0, 0.4);
+
+  --text-primary: #eef4ff;
+  --text-secondary: rgba(238, 244, 255, 0.78);
+  --text-muted: rgba(238, 244, 255, 0.62);
+  --text-faint: rgba(238, 244, 255, 0.5);
+
+  --border-subtle: rgba(255, 255, 255, 0.1);
+  --border-strong: rgba(255, 255, 255, 0.2);
+  --border-heavy: rgba(255, 255, 255, 0.3);
+
+  --input-bg: rgba(255, 255, 255, 0.05);
+  --input-border: rgba(255, 255, 255, 0.12);
+  --input-text: #eef4ff;
+  --input-placeholder: rgba(238, 244, 255, 0.45);
+
+  --body-background:
+    radial-gradient(circle at 20% 20%, rgba(26, 95, 255, 0.08), transparent 35%),
+    radial-gradient(circle at 80% 10%, rgba(27, 163, 255, 0.08), transparent 30%),
+    linear-gradient(180deg, #0b1220 0%, #050910 100%);
+
+  --marketing-panel-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(0, 0, 0, 0.62) 100%
+  );
+  --marketing-highlight-gradient: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(0, 0, 0, 0.32) 48%,
+    rgba(0, 0, 0, 0.72) 100%
+  );
+  --marketing-cta-gradient: linear-gradient(
+    90deg,
+    rgba(15, 23, 42, 0.82) 0%,
+    rgba(15, 107, 255, 0.2) 100%
+  );
+
+  --auth-shell-gradient: linear-gradient(180deg, #24324b 0%, #131d2f 100%);
+  --auth-orb-1: rgba(11, 25, 48, 0.6);
+  --auth-orb-2: rgba(18, 53, 101, 0.5);
+  --auth-radial-overlay: radial-gradient(circle at 20% 20%, rgba(9, 20, 38, 0.45), transparent 45%);
+  --auth-shell-pill-bg: #2f6ef6;
+  --auth-shell-card-bg: rgba(10, 19, 34, 0.9);
+
+  --restricted-orb-1: rgba(20, 59, 121, 0.4);
+  --restricted-orb-2: rgba(11, 24, 51, 0.7);
+
+  --font-roboto-mono: var(--font-roboto-mono);
+  --font-sora: var(--font-sora);
+
+  /* Legacy/Appzen aliases used by extracted modular route styles */
+  --primary-color: #0b1220;
+  --secondary-color: #111a2b;
+  --bg-color: #0b1220;
+  --text-color: #eef4ff;
+  --accent-color: #0f6bff;
+  --white-color: #ffffff;
+  --divider-color: rgba(255, 255, 255, 0.12);
+  --dark-divider-color: rgba(255, 255, 255, 0.08);
+  --error-color: rgb(230, 87, 87);
+
+  /* Economic calendar semantic status tokens */
+  --status-success: #38d39f;
+  --status-success-surface: rgba(56, 211, 159, 0.12);
+  --status-warning: #f5bd55;
+  --status-warning-surface: rgba(245, 189, 85, 0.12);
+  --status-danger: #ff6b7a;
+  --status-danger-surface: rgba(255, 107, 122, 0.12);
+  --status-info: var(--color-accent);
+  --status-info-surface: rgba(27, 163, 255, 0.12);
+  --calendar-card: var(--surface-elevated);
+  --calendar-card-muted: rgba(255, 255, 255, 0.035);
+  --calendar-control: rgba(255, 255, 255, 0.045);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-primary: var(--color-primary);
+  --color-accent: var(--color-accent);
+  --color-midnight: var(--color-midnight);
+  --color-slate: var(--color-slate);
+  --color-on-accent: var(--color-on-accent);
+  --color-surface-page: var(--surface-page);
+  --color-surface-panel: var(--surface-panel);
+  --color-surface-panel-strong: var(--surface-panel-strong);
+  --color-border-subtle: var(--border-subtle);
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  --color-status-success: var(--status-success);
+  --color-status-warning: var(--status-warning);
+  --color-status-danger: var(--status-danger);
+  --color-status-info: var(--status-info);
+  --color-calendar-card: var(--calendar-card);
+  --color-calendar-card-muted: var(--calendar-card-muted);
+  --color-calendar-control: var(--calendar-control);
+
+  --font-roboto-mono: var(--font-roboto-mono);
+  --font-sora: var(--font-sora);
+
+  --image-gradient: linear-gradient(135deg, #0f6bff 0%, #1ba3ff 100%);
+}

@@ -1,0 +1,263 @@
+{
+  "channelSettingsPage": {
+    "title": "إعدادات القناة",
+    "subtitle": "حدد كيف يتم تنفيذ الصفقات من هذه القناة على حساب MT الخاص بك.",
+    "loading": "جارٍ تحميل الإعدادات...",
+    "groups": {
+      "eligibility": {
+        "title": "الأزواج والصفقات المسموحة",
+        "subtitle": "تحكم في الأزواج التي يمكن للقناة تداولها وعدد الصفقات المفتوحة."
+      },
+      "risk": {
+        "title": "إدارة المخاطر وحجم الصفقة",
+        "subtitle": "حدد كيفية حساب حجم اللوت والمخاطرة لكل صفقة."
+      },
+      "incompleteSignal": {
+        "title": "الإشارات غير المكتملة",
+        "subtitle": "حدد كيفية التعامل مع الإشارات التي تفتقد الدخول أو SL أو TP."
+      },
+      "management": {
+        "title": "إدارة الصفقات",
+        "subtitle": "تحكم في الصفقات المفتوحة باستخدام التعادل، التريلينغ ستوب، وقواعد TP."
+      }
+    },
+    "symbols": {
+      "title": "الأزواج المسموحة",
+      "subtitle": "اختر الأزواج التي يمكن لهذه القناة التداول عليها. يتم تحميل القائمة من حساب MT المرتبط.",
+      "allTradable": "كل الأزواج القابلة للتداول",
+      "selectedOnly": "الأزواج المحددة فقط",
+      "modeDescriptionAll": "يحدد كتالوج الحساب الأزواج القابلة للتنفيذ.",
+      "modeDescriptionSelected": "يمكن تداول رموز الوسيط المحددة أدناه فقط.",
+      "disabled": "التداول متوقف",
+      "closeOnly": "إغلاق فقط",
+      "capabilityUnknown": "قدرة التداول غير مؤكدة",
+      "accountRequired": "اربط حساب MT متصلاً لتحميل كتالوج التداول الدقيق.",
+      "add": "إضافة زوج",
+      "remove": "إزالة",
+      "selectTitle": "اختيار الأزواج",
+      "searchPlaceholder": "ابحث عن زوج أو رمز",
+      "empty": "لا توجد أزواج.",
+      "noneSelected": "لا يوجد فلتر محدد. يمكن للقناة التداول على جميع الأزواج المتاحة في حساب MT.",
+      "catalogEmpty": "لا توجد بيانات للأزواج. قم بربط ومزامنة حساب MT لتحميلها.",
+      "loadError": "تعذر تحميل الرموز القابلة للتداول لهذا الحساب. حدّث الصفحة وحاول مرة أخرى."
+    },
+    "limits": {
+      "title": "حدود التداول",
+      "subtitle": "تمنع هذه الحدود فتح صفقات جديدة.",
+      "active": {
+        "title": "الحد الأقصى للصفقات المفتوحة",
+        "description": "أقصى عدد صفقات مفتوحة من هذه القناة في نفس الوقت."
+      },
+      "daily": {
+        "title": "الحد الأقصى للصفقات يوميًا",
+        "description": "أقصى عدد صفقات يمكن فتحها خلال يوم واحد (UTC)."
+      },
+      "duplicateTimeout": {
+        "title": "مهلة تكرار الإشارة",
+        "description": "عدد الدقائق قبل قبول نفس الإشارة المطابقة مرة أخرى."
+      }
+    },
+    "risk": {
+      "title": "إدارة المخاطر وحجم اللوت",
+      "subtitle": "حدد حجم اللوت والمخاطرة لكل صفقة.",
+      "fixed": {
+        "label": "مخاطرة ثابتة (نقد)",
+        "description": "المخاطرة بنفس المبلغ في كل صفقة.",
+        "valueLabel": "المخاطرة لكل صفقة"
+      },
+      "percentage": {
+        "label": "نسبة من الرصيد",
+        "description": "المخاطرة كنسبة من رصيدك، ويتم حساب حجم اللوت تلقائيًا.",
+        "valueLabel": "المخاطرة (% من الرصيد)"
+      },
+      "fixedLot": {
+        "label": "لوت ثابت",
+        "description": "استخدام حجم لوت محدد مسبقًا. يتم تجاهل الصفقة إذا لم يسمح الوسيط بذلك.",
+        "valueLabel": "حجم اللوت"
+      },
+      "maxLots": {
+        "label": "أقصى حجم لوت",
+        "description": "حد أقصى اختياري لحجم اللوت النهائي بعد الحساب.",
+        "placeholder": "مثال: 1.5"
+      },
+      "maxSlPips": {
+        "label": "أقصى مسافة SL",
+        "description": "حدد أقصى عدد نقاط SL لقبول الإشارة. يتم تجاهل الإشارات التي تكون نقاط SL فيها أكبر من هذه القيمة. اتركها فارغة لتعطيل هذا الحد.",
+        "placeholder": "مثال: 100"
+      },
+      "tp1VsSlGuard": {
+        "label": "رفض الإشارة إذا كان SL أكبر من TP1",
+        "description": "يتم تجاهل الإشارة عندما تكون مسافة وقف الخسارة أكبر من مسافة TP1."
+      },
+      "minLotsOverride": {
+        "label": "استخدام الحد الأدنى للوسيط",
+        "description": "إذا كان اللوت المحسوب أقل من الحد الأدنى، يتم استخدام الحد الأدنى بدلًا من تجاهل الصفقة."
+      },
+      "lotRoundingMode": {
+        "label": "تقريب اللوت",
+        "description": "حدد كيفية تقريب حجم اللوت حسب خطوة اللوت لدى الوسيط.",
+        "options": {
+          "FLOOR": "تقريب لأسفل (أكثر أمانًا)",
+          "ROUND": "تقريب لأقرب قيمة",
+          "CEIL": "تقريب لأعلى (مخاطرة أعلى)"
+        }
+      },
+      "placeholderFixed": "مثال: 25",
+      "placeholderPercent": "مثال: 1",
+      "placeholderFixedLot": "مثال: 0.1"
+    },
+    "executionFlex": {
+      "title": "الإشارات غير المكتملة",
+      "subtitle": "حدد ما يحدث عند وصول إشارة بدون دخول أو SL أو TP.",
+      "allowWithoutSlTp": {
+        "label": "السماح بدون SL/TP",
+        "description": "تنفيذ الصفقة حتى لو لم تتضمن SL أو TP."
+      },
+      "allowProviderSlWidening": {
+        "label": "السماح بتوسيع وقف الخسارة من مزود الإشارة",
+        "description": "خطر مرتفع: يسمح لتحديث المزود بإبعاد وقف الخسارة عن مستوى الأمان."
+      },
+      "allowForwardedSignals": {
+        "label": "السماح بالإشارات المحوّلة",
+        "description": "نسخ الإشارات المعاد توجيهها من مصادر أخرى. عطّل هذا الخيار لتنفيذ الإشارات الأصلية فقط."
+      },
+      "marketEntryTolerance": {
+        "sectionTitle": "نطاق الدخول",
+        "label": "نطاق الدخول",
+        "description": "الأسعار الأفضل تُنفذ دائمًا بسعر السوق. أما الأسعار الأسوأ فتُنفذ بسعر السوق فقط إذا بقيت ضمن نطاق نقاط المتداول المحسوب من أقل لوت وحجم العقد.",
+        "modeLabel": "نوع النطاق",
+        "options": {
+          "EXACT": "تيك وسيط واحد",
+          "PIPS": "ضمن نقاط المتداول بالنقاط pip"
+        },
+        "pipsLabel": "النطاق المسموح (pips)",
+        "pipsPlaceholder": "مثال: 30"
+      },
+      "limitOrderHandling": {
+        "title": "إذا تحرك السعر بعيدًا",
+        "subtitle": "إذا تجاوز السعر الأسوأ نطاق السماح، ضع أمر Limit عند نقطة الدخول الأصلية. وإذا كان هذا الخيار معطلًا، تُرفض الإشارة. أما السعر الأفضل فيُنفذ بسعر السوق.",
+        "enabled": {
+          "label": "ضع أمر Limit عند نقطة الدخول الأصلية",
+          "description": "عندما يتجاوز السعر الأسوأ نطاق السماح، ضع أمر Limit بدلًا من رفض الإشارة."
+        },
+        "limitExpirationLabel": "انتهاء أمر Limit (دقائق)",
+        "expirationDescription": "يلغي Tragram الأمر المعلق بعد هذه المدة. وقد يتم ضبط انتهاء الوسيط لمدة أطول كنسخة احتياطية إذا طلب الوسيط ذلك.",
+        "expirationPlaceholder": "مثال: 60"
+      },
+      "missingSl": {
+        "pipsLabel": "مسافة SL (pips)",
+        "pipsPlaceholder": "مثال: 300",
+        "description": "تستخدم لحساب SL عندما لا تحتوي الإشارة عليه.",
+        "overridesButton": "تخصيص حسب الزوج",
+        "overridesTitle": "تخصيص SL حسب الزوج",
+        "overridePlaceholder": "مثال: 150",
+        "addOverride": "إضافة قاعدة زوج"
+      }
+    },
+    "breakEven": {
+      "title": "نقطة التعادل",
+      "subtitle": "نقل SL إلى نقطة الدخول عند تحقيق ربح.",
+      "disabledForTrailingLevels": "يتم تعطيل التعادل عند استخدام تتبع TP.",
+      "enabled": {
+        "label": "تفعيل التعادل",
+        "description": "نقل SL تلقائيًا إلى نقطة الدخول عند تحقق الشروط."
+      },
+      "offset": {
+        "label": "تثبيت ربح بعد التعادل",
+        "valueLabel": "نقاط تثبيت الربح",
+        "description": "عند تفعيل التعادل، انقل SL بهذا العدد من النقاط بعد نقطة الدخول. استخدم 0 لنقل SL إلى نقطة الدخول تمامًا.",
+        "placeholder": "مثال: 2"
+      },
+      "disabledHint": "التعادل غير مفعّل.",
+      "tpHit": {
+        "label": "بعد تحقيق TP",
+        "description": "نقل SL بعد الوصول إلى TP المحدد.",
+        "targetLabel": "TP الذي يفعّل التعادل"
+      },
+      "fixedPips": {
+        "label": "بعد ربح ثابت (نقاط)",
+        "description": "نقل SL بعد الوصول إلى هذا الربح.",
+        "valueLabel": "الربح (نقاط)",
+        "placeholder": "مثال: 20"
+      }
+    },
+    "trailing": {
+      "title": "التريلينغ ستوب",
+      "subtitle": "تحريك SL مع حركة السعر في صالحك.",
+      "enabledHint": "يتم تطبيقه على الصفقات الجديدة.",
+      "disabledHint": "التريلينغ ستوب غير مفعّل.",
+      "enabled": {
+        "label": "تفعيل التريلينغ ستوب",
+        "description": "تحريك SL تلقائيًا مع السعر."
+      },
+      "modes": {
+        "step": {
+          "label": "خطوات بالنقاط",
+          "description": "بعد تحرك السعر X نقاط في الربح، حرّك SL بمقدار Y نقاط."
+        },
+        "tpLevels": {
+          "label": "متابعة مستويات TP",
+          "description": "تحريك SL عند الوصول إلى مستويات TP فقط.",
+          "hint": "يلغي التعادل."
+        }
+      },
+      "step": {
+        "triggerLabel": "شرط تحرك السعر (نقاط)",
+        "triggerPlaceholder": "مثال: 10",
+        "moveLabel": "مقدار تحريك SL (نقاط)",
+        "movePlaceholder": "مثال: 5"
+      }
+    },
+    "tpExecution": {
+      "title": "مستويات TP",
+      "subtitle": "حدد كيفية استخدام مستويات TP.",
+      "all": "استخدام جميع مستويات TP",
+      "allDescription": "استخدام جميع مستويات TP في الإشارة.",
+      "specific": "استخدام مستويات محددة",
+      "specificDescription": "استخدام فقط المستويات التي تختارها.",
+      "targetsLabel": "مستويات TP المسموحة"
+    },
+    "customPercentages": {
+      "title": "توزيع الصفقة حسب TP",
+      "note": "*يجب أن يكون المجموع {target}%.*",
+      "total": "الإجمالي: {total}%",
+      "disabledHint": "متاح فقط عند اختيار مستويات TP محددة."
+    },
+    "toasts": {
+      "saveSuccess": "تم حفظ الإعدادات بنجاح.",
+      "saveError": "تعذر تأكيد حفظ إعداداتك. أعد تحميل الإعدادات للتحقق قبل المحاولة مرة أخرى.",
+      "validation": "يرجى تصحيح الحقول المحددة."
+    },
+    "validation": {
+      "maxActiveOrdersMin": "يجب أن يكون الحد الأدنى للصفقات المفتوحة 1.",
+      "maxDailyTradesMin": "يجب أن يكون الحد الأدنى للصفقات اليومية 1.",
+      "duplicateSignalTimeoutMinutesMin": "يجب أن تكون مهلة تكرار الإشارة دقيقة واحدة على الأقل.",
+      "riskPerTradePositive": "يجب أن تكون المخاطرة أكبر من 0.",
+      "fixedLotSizePositive": "يجب أن يكون حجم اللوت أكبر من 0.",
+      "riskPercentageRange": "يجب أن تكون النسبة بين 0 و 100.",
+      "maxLotsPositive": "يجب أن يكون حجم اللوت أكبر من 0.",
+      "maxSlPipsPositive": "يجب أن تكون مسافة SL أكبر من 0.",
+      "limitOrderExpirationPositive": "يجب أن يكون وقت انتهاء أمر Limit أكبر من 0.",
+      "marketEntryTolerancePipsPositive": "يجب أن يكون النطاق أكبر من 0.",
+      "missingSlPipsPositive": "يجب أن تكون نقاط مسافة SL أكبر من 0.",
+      "missingSlSymbolInvalid": "يجب اختيار رمز صحيح لكل تخصيص.",
+      "missingSlOverridePositive": "يجب أن تكون قيمة كل تخصيص أكبر من 0.",
+      "breakEvenProfitLockRange": "يجب أن تكون نقاط تثبيت الربح 0 أو أكثر.",
+      "trailingStopStepTriggerPositive": "يجب أن يكون شرط تحرك السعر أكبر من 0.",
+      "trailingStopStepMovePositive": "يجب أن يكون مقدار تحريك SL أكبر من 0.",
+      "breakEvenTpTargetRequired": "اختر TP لتفعيل التعادل.",
+      "breakEvenTriggerRange": "يجب أن يكون الشرط أكبر من 0.",
+      "tpTargetsRequired": "اختر مستوى TP واحد على الأقل.",
+      "customPercentagesRange": "يجب أن تكون النسب بين 0 و 100.",
+      "customPercentagesTotal": "يجب أن يكون المجموع {target}%.",
+      "planMaxActiveOrders": "خطتك لا تسمح بهذا العدد من الصفقات.",
+      "planMaxDailyTrades": "خطتك لا تسمح بهذا العدد اليومي.",
+      "planAllowExecutionWithoutSlTp": "خطتك لا تسمح بالتداول بدون SL/TP."
+    },
+    "buttons": {
+      "save": "حفظ",
+      "saving": "جارٍ الحفظ...",
+      "select": "اختيار"
+    }
+  }
+}

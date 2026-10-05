@@ -1,0 +1,609 @@
+#public-route-root .account-deletion-page {
+  min-height: 70vh;
+  padding: clamp(2.5rem, 5vw, 5.5rem) 1rem 9rem;
+  background:
+    radial-gradient(circle at 12% 0%, rgba(21, 74, 135, 0.26), transparent 32rem),
+    radial-gradient(circle at 92% 18%, rgba(15, 107, 255, 0.12), transparent 28rem),
+    #07101f;
+  color: #f6f8fb;
+}
+
+#public-route-root .account-deletion-route-shell .page-header {
+  margin-top: 0;
+  padding: clamp(7.5rem, 10vw, 9rem) 0 clamp(2.25rem, 5vw, 3.5rem);
+}
+
+#public-route-root .account-deletion-route-shell .page-header-box h1 {
+  max-width: 100%;
+  font-size: clamp(2.35rem, 5.5vw, 4.75rem);
+  line-height: 1.08;
+}
+
+#public-route-root .account-deletion-route-shell .page-header-box ol li.breadcrumb-item {
+  font-size: 0.95rem;
+}
+
+#public-route-root .account-deletion-container {
+  width: min(1180px, 100%);
+  margin: 0 auto;
+}
+
+#public-route-root .account-deletion-context {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  color: #91a6c0;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+#public-route-root .account-deletion-context span:last-child {
+  color: #78bdff;
+  font-weight: 700;
+}
+
+#public-route-root .account-deletion-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.18fr) minmax(300px, 0.82fr);
+  align-items: start;
+  gap: clamp(1.25rem, 3vw, 2rem);
+}
+
+#public-route-root .account-deletion-card,
+#public-route-root .account-deletion-summary-card {
+  border: 1px solid rgba(148, 163, 184, 0.22);
+  border-radius: 1.25rem;
+  background: linear-gradient(145deg, rgba(20, 34, 58, 0.97), rgba(10, 22, 40, 0.96));
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.24);
+}
+
+#public-route-root .account-deletion-card {
+  min-width: 0;
+  padding: clamp(1.25rem, 3vw, 2.75rem);
+}
+
+#public-route-root .account-deletion-summary-card {
+  min-width: 0;
+  padding: clamp(1.25rem, 2.5vw, 2rem);
+}
+
+#public-route-root .account-deletion-card h1,
+#public-route-root .account-deletion-card h2,
+#public-route-root .account-deletion-card h3,
+#public-route-root .account-deletion-summary-card h2,
+#public-route-root .account-deletion-summary-card h3 {
+  color: #f6f8fb;
+  margin: 0;
+}
+
+#public-route-root #account-deletion-step-title {
+  max-width: 18ch;
+  margin: 0.55rem 0 0.85rem;
+  font-size: clamp(2.1rem, 4.5vw, 3.75rem);
+  line-height: 1.03;
+  letter-spacing: -0.035em;
+}
+
+#public-route-root .account-deletion-card h2,
+#public-route-root .account-deletion-summary-card h2 {
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  line-height: 1.25;
+}
+
+#public-route-root .account-deletion-page h1:focus,
+#public-route-root .account-deletion-page h2:focus {
+  outline: none;
+}
+
+#public-route-root .account-deletion-kicker {
+  margin: 0;
+  color: #78bdff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+#public-route-root .account-deletion-intro {
+  max-width: 62ch;
+  margin: 0;
+  color: #c4cfdf;
+  line-height: 1.7;
+}
+
+#public-route-root .account-deletion-stepper {
+  margin: 0 0 2rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.18);
+}
+
+#public-route-root .account-deletion-stepper-meta {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+#public-route-root .account-deletion-stepper-count {
+  color: #aebdd0;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+#public-route-root .account-deletion-stepper-current {
+  color: #78bdff;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+#public-route-root .account-deletion-stepper-list {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#public-route-root .account-deletion-step {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 0.6rem;
+  color: #8fa2b9;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+#public-route-root .account-deletion-step-number {
+  display: grid;
+  flex: 0 0 2rem;
+  width: 2rem;
+  height: 2rem;
+  place-items: center;
+  border: 1px solid rgba(148, 163, 184, 0.32);
+  border-radius: 50%;
+  color: #aebdd0;
+  font-size: 0.8rem;
+  line-height: 1;
+}
+
+#public-route-root .account-deletion-step-label {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+#public-route-root .account-deletion-step--current {
+  color: #f6f8fb;
+}
+
+#public-route-root .account-deletion-step--current .account-deletion-step-number {
+  border-color: #78bdff;
+  background: #0f6bff;
+  color: #fff;
+  box-shadow: 0 0 0 4px rgba(15, 107, 255, 0.14);
+}
+
+#public-route-root .account-deletion-step--complete {
+  color: #b9d9ff;
+}
+
+#public-route-root .account-deletion-step--complete .account-deletion-step-number {
+  border-color: rgba(120, 189, 255, 0.7);
+  background: rgba(15, 107, 255, 0.2);
+  color: #9bd0ff;
+}
+
+#public-route-root .account-deletion-form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.75rem;
+}
+
+#public-route-root .account-deletion-form h2 {
+  margin-top: 0.6rem;
+}
+
+#public-route-root .account-deletion-disclosure-actions {
+  margin-top: 2rem;
+}
+
+#public-route-root .account-deletion-field {
+  display: grid;
+  gap: 0.5rem;
+  color: #dbe5f2;
+  font-weight: 600;
+}
+
+#public-route-root .account-deletion-field-label {
+  display: block;
+  color: #dbe5f2;
+  font-size: 0.875rem;
+  line-height: 1.4;
+}
+
+#public-route-root .account-deletion-form .auth-round {
+  border-radius: 9999px;
+}
+
+#public-route-root .account-deletion-form > label > input:not([type='checkbox']):not([type='radio']),
+#public-route-root .account-deletion-otp-input {
+  min-height: 3rem;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  border-radius: 0.75rem;
+  background: #0b172a;
+  color: #fff;
+  padding: 0.7rem 0.8rem;
+}
+
+#public-route-root .account-deletion-form > label > input:not([type='checkbox']):not([type='radio']):focus,
+#public-route-root .account-deletion-form .auth-round:focus-within,
+#public-route-root .account-deletion-otp-input:focus {
+  outline: 2px solid rgba(120, 189, 255, 0.9);
+  outline-offset: 2px;
+}
+
+#public-route-root .account-deletion-primary {
+  display: inline-flex;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 0.75rem;
+  background: #0f6bff;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 160ms ease, transform 160ms ease, box-shadow 160ms ease;
+}
+
+#public-route-root .account-deletion-form .account-deletion-primary {
+  width: 100%;
+}
+
+#public-route-root .account-deletion-primary:hover:not(:disabled) {
+  background: #2b82ff;
+  box-shadow: 0 12px 28px rgba(15, 107, 255, 0.24);
+  transform: translateY(-1px);
+}
+
+#public-route-root .account-deletion-primary:focus-visible,
+#public-route-root .account-deletion-link:focus-visible {
+  outline: 2px solid #9bd0ff;
+  outline-offset: 3px;
+}
+
+#public-route-root .account-deletion-primary:disabled {
+  cursor: wait;
+  opacity: 0.6;
+  transform: none;
+}
+
+#public-route-root .account-deletion-danger {
+  background: #c83b4b;
+}
+
+#public-route-root .account-deletion-danger:hover:not(:disabled) {
+  background: #e05261;
+  box-shadow: 0 12px 28px rgba(200, 59, 75, 0.24);
+}
+
+#public-route-root .account-deletion-link {
+  justify-self: start;
+  border: 0;
+  background: transparent;
+  color: #78bdff;
+  padding: 0;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#public-route-root .account-deletion-option,
+#public-route-root .account-deletion-check {
+  display: flex !important;
+  align-items: flex-start;
+  gap: 0.65rem !important;
+  color: #dbe5f2;
+  font-weight: 500 !important;
+  line-height: 1.5;
+}
+
+#public-route-root .account-deletion-option input,
+#public-route-root .account-deletion-check input {
+  min-height: auto;
+  margin-top: 0.25rem;
+}
+
+#public-route-root .account-deletion-notice {
+  margin: 1.25rem 0 0;
+  border-inline-start: 3px solid #fbbf24;
+  border-radius: 0.35rem;
+  background: rgba(251, 191, 36, 0.1);
+  color: #fde68a;
+  padding: 0.8rem 1rem;
+  line-height: 1.5;
+}
+
+#public-route-root .account-deletion-alert {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  border: 1px solid rgba(248, 113, 113, 0.35);
+  border-radius: 1rem;
+  background: rgba(127, 29, 29, 0.24);
+  padding: 1rem;
+}
+
+#public-route-root .account-deletion-alert p,
+#public-route-root .account-deletion-recovery p,
+#public-route-root .account-deletion-receipt p {
+  margin: 0;
+  color: #dbe5f2;
+  line-height: 1.6;
+}
+
+#public-route-root .account-deletion-summary-card h2 {
+  margin-top: 0.35rem;
+}
+
+#public-route-root .account-deletion-summary-list {
+  display: grid;
+  gap: 0;
+  margin: 1.35rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+#public-route-root .account-deletion-summary-item {
+  display: grid;
+  grid-template-columns: 2rem minmax(0, 1fr);
+  gap: 0.8rem;
+  align-items: start;
+  padding: 1rem 0;
+  border-top: 1px solid rgba(148, 163, 184, 0.16);
+}
+
+#public-route-root .account-deletion-summary-item span {
+  color: #78bdff;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+#public-route-root .account-deletion-summary-item p {
+  margin: 0;
+  color: #c4cfdf;
+  line-height: 1.55;
+}
+
+#public-route-root details.account-deletion-retention {
+  margin-top: 1.25rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.18);
+  padding-top: 1.15rem;
+}
+
+#public-route-root details.account-deletion-retention summary {
+  color: #f6f8fb;
+  cursor: pointer;
+  font-weight: 700;
+  list-style-position: inside;
+}
+
+#public-route-root details.account-deletion-retention summary:focus-visible {
+  outline: 2px solid #9bd0ff;
+  outline-offset: 3px;
+}
+
+#public-route-root details.account-deletion-retention table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 0.85rem;
+  font-size: 0.86rem;
+}
+
+#public-route-root details.account-deletion-retention th,
+#public-route-root details.account-deletion-retention td {
+  border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+  padding: 0.75rem 0.15rem;
+  vertical-align: top;
+  text-align: start;
+}
+
+#public-route-root details.account-deletion-retention th {
+  color: #e5edf8;
+  font-weight: 600;
+}
+
+#public-route-root details.account-deletion-retention td {
+  color: #aebdd0;
+}
+
+#public-route-root .account-deletion-receipt {
+  display: grid;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+#public-route-root .account-deletion-receipt dl {
+  display: grid;
+  grid-template-columns: 8rem 1fr;
+  gap: 0.6rem;
+  margin: 0;
+}
+
+#public-route-root .account-deletion-receipt dt {
+  color: #aebdd0;
+}
+
+#public-route-root .account-deletion-receipt dd {
+  min-width: 0;
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+#public-route-root .account-deletion-code {
+  color: #9bd0ff;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+#public-route-root .account-deletion-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+#public-route-root .account-deletion-actions .account-deletion-primary {
+  flex: 1 1 12rem;
+}
+
+#public-route-root .account-deletion-actions .account-deletion-link {
+  flex: 0 0 auto;
+}
+
+#public-route-root .account-deletion-status-message {
+  border-radius: 0.75rem;
+  background: rgba(15, 107, 255, 0.12);
+  color: #dbeafe !important;
+  padding: 0.85rem 1rem;
+}
+
+#public-route-root .account-deletion-footer {
+  margin: 2rem 0 0;
+  color: #aebdd0;
+  line-height: 1.6;
+}
+
+#public-route-root .account-deletion-footer a {
+  color: #78bdff;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+#public-route-root .account-deletion-footer a:hover {
+  color: #b8ddff;
+}
+
+#public-route-root .account-deletion-recovery {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  border: 1px solid rgba(120, 189, 255, 0.3);
+  border-radius: 1rem;
+  background: rgba(15, 107, 255, 0.1);
+  padding: 1rem;
+}
+
+@media (max-width: 900px) {
+  #public-route-root .account-deletion-layout {
+    grid-template-columns: 1fr;
+  }
+
+  #public-route-root .account-deletion-summary {
+    order: 2;
+  }
+}
+
+@media (max-width: 600px) {
+  #public-route-root .account-deletion-route-shell .page-header {
+    padding: 6.5rem 0 2rem;
+  }
+
+  #public-route-root .account-deletion-route-shell .page-header-box h1 {
+    font-size: clamp(2rem, 10vw, 3.2rem);
+  }
+
+  #public-route-root .account-deletion-page {
+    padding: 2rem 0.75rem 10rem;
+  }
+
+  #public-route-root .account-deletion-card,
+  #public-route-root .account-deletion-summary-card {
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+
+  #public-route-root .account-deletion-context,
+  #public-route-root .account-deletion-stepper-meta {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  #public-route-root .account-deletion-stepper-list {
+    gap: 0.4rem;
+  }
+
+  #public-route-root .account-deletion-step {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.45rem;
+    font-size: 0.75rem;
+  }
+
+  #public-route-root .account-deletion-step-number {
+    flex-basis: 1.85rem;
+    width: 1.85rem;
+    height: 1.85rem;
+  }
+
+  #public-route-root .account-deletion-step-label {
+    max-width: 100%;
+  }
+
+  #public-route-root details.account-deletion-retention table,
+  #public-route-root details.account-deletion-retention tbody,
+  #public-route-root details.account-deletion-retention tr,
+  #public-route-root details.account-deletion-retention th,
+  #public-route-root details.account-deletion-retention td {
+    display: block;
+  }
+
+  #public-route-root details.account-deletion-retention tr {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+  }
+
+  #public-route-root details.account-deletion-retention th,
+  #public-route-root details.account-deletion-retention td {
+    border: 0;
+    padding: 0.15rem 0;
+  }
+
+  #public-route-root details.account-deletion-retention th {
+    color: #e5edf8;
+  }
+
+  #public-route-root details.account-deletion-retention td {
+    color: #aebdd0;
+  }
+
+  #public-route-root .account-deletion-receipt dl {
+    grid-template-columns: 1fr;
+  }
+
+  #public-route-root .account-deletion-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  #public-route-root .account-deletion-actions .account-deletion-primary,
+  #public-route-root .account-deletion-actions .account-deletion-link {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #public-route-root .account-deletion-primary {
+    transition: none;
+  }
+
+  #public-route-root .account-deletion-primary:hover:not(:disabled) {
+    transform: none;
+  }
+}

@@ -1,0 +1,99 @@
+#public-route-root .page-faqs {
+  --faq-surface: var(--secondary-color);
+  --faq-border: var(--divider-color);
+  --faq-heading: var(--text-primary, var(--white-color));
+  --faq-body: var(--text-secondary, var(--text-color));
+  --faq-category: var(--text-color);
+  --faq-category-icon-filter: brightness(0) invert(1);
+  --faq-cta-text: var(--color-on-accent, var(--white-color));
+  --faq-cta-text-muted: rgba(255, 255, 255, 0.9);
+}
+
+#public-route-root[data-theme="light"] .page-faqs,
+#public-route-root[data-bs-theme="light"] .page-faqs {
+  --faq-surface: #ffffff;
+  --faq-border: rgba(15, 23, 42, 0.14);
+  --faq-heading: #0b1220;
+  --faq-body: rgba(15, 23, 42, 0.78);
+  --faq-category: #0b1220;
+  --faq-category-icon-filter: none;
+  --faq-cta-text: #ffffff;
+  --faq-cta-text-muted: rgba(255, 255, 255, 0.9);
+}
+
+#public-route-root .page-faqs .page-category-list,
+#public-route-root .page-faqs .faq-accordion .accordion-item {
+  background: var(--faq-surface);
+  border: 1px solid var(--faq-border);
+}
+
+#public-route-root .page-faqs .page-category-list ul li {
+  border-bottom: 1px solid var(--faq-border);
+}
+
+#public-route-root .page-faqs .page-category-list ul li a {
+  color: var(--faq-category);
+}
+
+#public-route-root .page-faqs .page-category-list ul li a.is-active {
+  color: var(--accent-color);
+}
+
+#public-route-root .page-faqs .page-category-list ul li a::before {
+  filter: var(--faq-category-icon-filter);
+}
+
+#public-route-root .page-faqs .sidebar-cta-box {
+  color: var(--faq-cta-text);
+}
+
+#public-route-root .page-faqs .sidebar-cta-content h3,
+#public-route-root .page-faqs .sidebar-cta-contact-list ul li {
+  color: inherit;
+}
+
+#public-route-root .page-faqs .sidebar-cta-contact-list ul li a {
+  color: var(--faq-cta-text-muted);
+}
+
+#public-route-root .page-faqs .sidebar-cta-contact-list ul li a:hover {
+  color: var(--faq-cta-text);
+}
+
+#public-route-root .page-faqs .sidebar-cta-contact-list ul li img {
+  filter: brightness(0) invert(1);
+}
+
+#public-route-root[data-theme="light"] .page-faqs .sidebar-cta-contact-list ul li img,
+#public-route-root[data-bs-theme="light"] .page-faqs .sidebar-cta-contact-list ul li img {
+  filter: brightness(0) invert(1);
+}
+
+#public-route-root .page-faqs .faq-accordion .accordion-header .accordion-button,
+#public-route-root .page-faqs .faq-accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+  color: var(--faq-heading);
+}
+
+#public-route-root .page-faqs .faq-accordion .accordion-item .accordion-body {
+  border-top: 1px solid var(--faq-border);
+  color: var(--faq-body);
+}
+
+#public-route-root .page-faqs .faq-accordion .accordion-item .accordion-body p {
+  color: inherit;
+}
+
+#public-route-root .page-faqs .faq-accordion .accordion-item .accordion-button::after,
+#public-route-root .page-faqs .faq-accordion .accordion-item .accordion-button.collapsed::after {
+  color: var(--color-on-accent, var(--white-color));
+  background: var(--accent-color);
+}
+
+#public-route-root .page-faqs .faq-accordion .accordion-button:not(.collapsed)::after {
+  color: var(--color-on-accent, var(--white-color));
+  background: var(--accent-color);
+}
+
+#public-route-root .page-faqs .faq-accordion .accordion-button:focus {
+  box-shadow: none;
+}

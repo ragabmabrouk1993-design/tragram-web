@@ -1,0 +1,770 @@
+{
+  "legacyPages": {
+    "shared": {
+      "whyChoose": {
+        "kicker": "Why Tragram",
+        "title": "A clearer way to follow Telegram signals",
+        "cta": "Contact Support"
+      },
+      "benefits": {
+        "kicker": "Tragram Benefits",
+        "title": "Built for signal followers who want control before execution",
+        "items": [
+          {
+            "title": "Telegram-to-MT workflow",
+            "body": "Connect the channels you trust and route eligible signals into MT4/MT5 with clear execution rules."
+          },
+          {
+            "title": "Channel-specific controls",
+            "body": "Use execution rules, symbol filters, and risk settings tailored to how each channel should behave."
+          },
+          {
+            "title": "Faster intervention",
+            "body": "Pause a channel or tighten execution rules quickly when signal quality or market conditions change."
+          }
+        ],
+        "footerText": "Tragram helps you keep signal execution visible, rule-based, and easier to stop when needed.",
+        "reviewsLabel": "Execution rules stay visible"
+      },
+      "testimonials": {
+        "kicker": "Testimonials",
+        "title": "Teams trust Tragram to execute with discipline",
+        "body": "From solo traders to multi-account operators, Tragram keeps every signal visible and controllable.",
+        "ratingValue": "Visible",
+        "ratingLabel": "Execution status",
+        "installsValue": "Rule-based",
+        "installsSuffix": "",
+        "installsLabel": "trade handling",
+        "quoteTitle": "Automation should remain transparent and easy to pause.",
+        "quoteBody": "Tragram helps signal followers connect Telegram channels, apply rules, and keep execution behavior visible across MT4/MT5 accounts.",
+        "authorName": "Tragram workflow",
+        "authorRole": "User-controlled execution",
+        "companyCount": "Multi-account",
+        "companyLabel": "routing support",
+        "dragLabel": "Drag"
+      }
+    },
+    "about": {
+      "header": {
+        "title": "About Tragram",
+        "breadcrumbHome": "Home",
+        "breadcrumbActive": "About"
+      },
+      "hero": {
+        "supportTitle": "Need setup help? Contact support.",
+        "downloadBadgeLabel": "Download the app badge",
+        "kicker": "About Tragram",
+        "title": "A user-controlled bridge between Telegram and MT4/MT5",
+        "body": "Tragram is built for traders who follow Telegram signals but still want to control review, risk rules, and execution behavior before trades reach their MT account.",
+        "items": [
+          {
+            "title": "Signal review first",
+            "body": "Keep incoming signals visible before they turn into orders."
+          },
+          {
+            "title": "Rule-based execution",
+            "body": "Let channel settings determine what can be executed and what should wait for review."
+          }
+        ],
+        "ctaLabel": "Contact Tragram",
+        "playStoreLabel": "Get it on Google Play"
+      },
+      "approach": {
+        "kicker": "Our Approach",
+        "title": "Execution controls before automation",
+        "body": "Tragram is designed around a simple principle: follow signals faster without removing the trader from the risk decision.",
+        "list": [
+          "Channel-specific rules",
+          "Visible execution history"
+        ],
+        "ctaLabel": "Get setup help"
+      },
+      "mission": {
+        "title": "Our Mission",
+        "body": "Help signal followers connect Telegram to MT4/MT5 without losing visibility or control.",
+        "list": [
+          "User-controlled execution",
+          "Clear risk guardrails",
+          "Reliable setup for daily signal workflows"
+        ]
+      },
+      "vision": {
+        "title": "Our Vision",
+        "body": "A trading workflow where signal automation is faster to manage, easier to review, and safer to interrupt.",
+        "list": [
+          "Transparent actions",
+          "Practical controls",
+          "Trusted execution flow"
+        ]
+      },
+      "platforms": {
+        "items": [
+          {
+            "title": "For signal followers",
+            "body": "Watch what your selected channels send and decide how much automation you want to allow."
+          },
+          {
+            "title": "For multi-account traders",
+            "body": "Manage more than one MT account while keeping channel rules and execution settings organized."
+          },
+          {
+            "title": "For web-dashboard users",
+            "body": "Review queues, update settings, and pause execution from the web platform.",
+            "ctaLabel": "Open the Web Platform"
+          }
+        ]
+      },
+      "socialApps": {
+        "kicker": "Integrations",
+        "title": "Built around the tools signal traders already use",
+        "footerText": "Telegram stays at the front of the workflow, with MT execution and rule controls behind it.",
+        "downloadLead": "Use Tragram to review incoming signals, monitor execution status, and keep intervention close when market conditions change.",
+        "downloadHighlights": [
+          "Telegram channels",
+          "MT4/MT5 accounts",
+          "Pause when needed"
+        ],
+        "appStoreLabel": "Download on the App Store",
+        "playStoreLabel": "Get it on Google Play"
+      },
+      "team": {
+        "kicker": "The Team",
+        "title": "Trading automation with a product and risk mindset",
+        "members": [
+          {
+            "name": "Amina Rahman",
+            "role": "Execution Operations"
+          },
+          {
+            "name": "Omar Khalid",
+            "role": "Risk & Compliance"
+          },
+          {
+            "name": "Lina Farouk",
+            "role": "Product Strategy"
+          },
+          {
+            "name": "Yousef Mansour",
+            "role": "Infrastructure & Reliability"
+          }
+        ],
+        "footerText": "Speak with our trading ops team -",
+        "viewLabel": "View"
+      },
+      "howItWorks": {
+        "kicker": "How It Works",
+        "title": "Connect, configure, and control in a few steps",
+        "steps": [
+          {
+            "title": "Connect Telegram",
+            "body": "Authorize Telegram and choose the channels you want Tragram to follow."
+          },
+          {
+            "title": "Link MT4/MT5",
+            "body": "Connect the MT account that should receive eligible trades."
+          },
+          {
+            "title": "Set your rules",
+            "body": "Choose execution rules, filters, sizing behavior, and limits before execution starts."
+          },
+          {
+            "title": "Go live carefully",
+            "body": "Start routing signals with visible controls and pause the flow when you need to review it."
+          }
+        ]
+      }
+    },
+    "features": {
+      "header": {
+        "title": "Tragram Features",
+        "breadcrumbHome": "Home",
+        "breadcrumbActive": "Features"
+      },
+      "cards": [
+        {
+          "title": "Connect trusted Telegram channels"
+        },
+        {
+          "title": "Link MT4/MT5 accounts"
+        },
+        {
+          "title": "Configure channel execution rules"
+        },
+        {
+          "title": "Limit risk by channel"
+        },
+        {
+          "title": "Filter symbols before execution"
+        },
+        {
+          "title": "Pause execution instantly"
+        },
+        {
+          "title": "Track open and closed orders"
+        },
+        {
+          "title": "Review every signal action"
+        }
+      ],
+      "viewDetails": "Contact support"
+    },
+    "pricing": {
+      "header": {
+        "title": "Pricing",
+        "breadcrumbHome": "Home",
+        "breadcrumbActive": "Pricing"
+      },
+      "plans": [],
+      "priceSuffix": "/per month",
+      "includedTitle": "What is included:",
+      "features": [
+        "Channel and account limits by plan",
+        "Risk rules and execution controls",
+        "Execution history and trade visibility",
+        "Secure checkout and subscription management"
+      ],
+      "cta": "Get Started",
+      "benefits": [
+        "Cancel anytime",
+        "Scale plan capacity as you grow",
+        "Secure crypto checkout"
+      ]
+    },
+    "contact": {
+      "header": {
+        "title": "Contact Tragram",
+        "breadcrumbHome": "Home",
+        "breadcrumbActive": "Contact"
+      },
+      "info": {
+        "emailLabel": "Email",
+        "emailValue": "support@tragram.app",
+        "locationLabel": "Location",
+        "locationValue": "Ajman, UAE",
+        "hoursLabel": "Response time",
+        "hoursValue": "We reply after reviewing your request.",
+        "downloadLabel": "Setup help",
+        "downloadNote": "Use the contact form or help center for onboarding questions."
+      },
+      "stats": {
+        "label": "Workflow preview",
+        "value": "Live",
+        "suffix": ""
+      },
+      "form": {
+        "kicker": "Contact Tragram",
+        "title": "We help traders connect channels, MT accounts, and execution rules",
+        "body": "Send your setup question and our team will reply by email with the next steps for your workflow.",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "phone": "Phone Number",
+        "email": "Email Address",
+        "typeLabel": "What do you need help with?",
+        "generalType": "General support",
+        "deletionType": "I cannot complete account-deletion verification",
+        "deletionWarning": "Never send a password, OTP, Telegram challenge, receipt token, broker credential, payment secret, recovery code, or identity document. We will only use the structured choices below.",
+        "requestedActionLabel": "Requested action",
+        "deleteAccountOption": "Delete my account",
+        "cancelDeletionOption": "Cancel scheduled deletion",
+        "requestedModeLabel": "Deletion timing",
+        "scheduledOption": "Schedule after seven days",
+        "immediateOption": "Delete immediately",
+        "accessProblemLabel": "What is blocking you?",
+        "passwordProblem": "I cannot use my password",
+        "telegramCodeMissing": "I did not receive the Telegram code",
+        "otherProblem": "Other verification problem",
+        "ackBroker": "I understand deletion will not change broker positions or orders.",
+        "ackRetention": "I understand the published retention schedule.",
+        "ackPrepaid": "I understand one-time prepaid access and refund review are separate.",
+        "message": "Write your message...",
+        "submit": "Send Message"
+      },
+      "map": {
+        "kicker": "Our Location",
+        "title": "Ajman Free Zone, UAE",
+        "embedUrl": "https://www.google.com/maps?q=Ajman%20Free%20Zone/@25.419101,55.452662,12z&output=embed"
+      },
+      "footerCta": {
+        "kicker": "Get Started",
+        "title": "Start with a workflow you can review before it executes",
+        "body": "Open your account setup or use the help center if you need guidance connecting Telegram channels, MT accounts, and rule controls.",
+        "primaryLinkLabel": "Open account setup",
+        "secondaryLinkLabel": "Open help center"
+      }
+    },
+    "faqs": {
+      "header": {
+        "title": "Frequently Asked Questions",
+        "breadcrumbHome": "Home",
+        "breadcrumbActive": "FAQs"
+      },
+      "categories": [
+        {
+          "id": "faq_1",
+          "label": "Getting started"
+        },
+        {
+          "id": "faq_2",
+          "label": "Telegram channels"
+        },
+        {
+          "id": "faq_3",
+          "label": "MT4/MT5 connections"
+        },
+        {
+          "id": "faq_4",
+          "label": "Execution rules"
+        },
+        {
+          "id": "faq_5",
+          "label": "Billing and plans"
+        }
+      ],
+      "sidebar": {
+        "title": "Need help connecting your setup?",
+        "emailLabel": "support@tragram.app",
+        "emailValue": "support@tragram.app"
+      }
+    }
+  },
+  "restrictedPage": {
+    "title": "Service Unavailable",
+    "description": "Access to Tragram is not available in your region due to our compliance requirements.",
+    "cta": "Return Home"
+  },
+  "termsPage": {
+    "kicker": "Terms",
+    "title": "Terms of Service",
+    "description": "These terms explain how Tragram may be used to connect Telegram channels, parse trading signals, and operate user-controlled MT4/MT5 execution workflows.",
+    "lastUpdatedLabel": "Last updated",
+    "lastUpdated": "May 27, 2026",
+    "effectiveDateLabel": "Effective date",
+    "effectiveDate": "May 27, 2026",
+    "entityLabel": "Contracting entity",
+    "entityName": "Tragram F.Z.C, Ajman Free Zone, United Arab Emirates",
+    "notice": "Tragram is software for user-controlled automation. It is not a broker, investment adviser, portfolio manager, signal provider, custodian, or financial institution.",
+    "tableOfContentsTitle": "On this page",
+    "summaryCards": [
+      {
+        "label": "Service type",
+        "value": "Telegram-to-MT4/MT5 automation software"
+      },
+      {
+        "label": "Payments",
+        "value": "Subscriptions processed through Tragram-supported providers"
+      },
+      {
+        "label": "Refund window",
+        "value": "14 days for the first paid subscription purchase"
+      },
+      {
+        "label": "Restricted countries",
+        "value": "Iran, Russia, Belarus, Myanmar, North Korea"
+      }
+    ],
+    "sections": [
+      {
+        "id": "company-and-acceptance",
+        "title": "Company and acceptance",
+        "lead": "These Terms of Service form an agreement between you and Tragram F.Z.C.",
+        "body": [
+          "Tragram F.Z.C is a Free Zone Company - Limited Liability registered in Ajman Free Zone, United Arab Emirates, under license number 49251, with its registered address at B.C. 6010546, Ajman Boulevard-A Building, Ajman Free Zone, Ajman, United Arab Emirates.",
+          "By creating an account, purchasing a subscription, connecting a Telegram channel, connecting an MT4 or MT5 account, or otherwise using Tragram, you confirm that you have read and accepted these terms."
+        ]
+      },
+      {
+        "id": "eligibility-and-restrictions",
+        "title": "Eligibility and country restrictions",
+        "body": [
+          "You must be legally able to enter into a binding agreement and use trading automation in your jurisdiction. If you act for a company or trading group, you confirm that you have authority to bind that organization.",
+          "Tragram is not available to users located in, ordinarily resident in, or otherwise subject to restrictions connected with Iran, Russia, Belarus, Myanmar, or North Korea. We may block sign-ups, payments, or access where required by compliance, sanctions, risk controls, or our payment providers."
+        ]
+      },
+      {
+        "id": "service-description",
+        "title": "What Tragram does",
+        "lead": "Tragram helps you monitor selected Telegram channels and route parsed trade instructions into your connected MT4/MT5 workflow.",
+        "bullets": [
+          "You choose which Telegram channels to connect and which MT accounts may receive instructions.",
+          "You configure execution settings, symbols, sizing, take-profit behavior, stop-loss rules, execution controls, and other account-level safeguards available in the platform.",
+          "Tragram may parse messages with rule-based and AI-assisted systems. You remain responsible for reviewing configuration and deciding whether automation is appropriate for your trading setup.",
+          "Tragram does not create independent trading advice, guarantee signal quality, guarantee parser accuracy, or guarantee any trading result."
+        ]
+      },
+      {
+        "id": "trading-risk",
+        "title": "Trading risk and user responsibility",
+        "body": [
+          "Trading foreign exchange, CFDs, commodities, indices, crypto assets, and other leveraged products can result in substantial losses. Automated execution can increase the speed and volume of trading errors if your settings, broker environment, signal format, or market conditions are not suitable.",
+          "You are responsible for your broker account, Telegram access, selected channels, parser settings, symbol mapping, trade sizing, risk limits, execution rules, and any order sent to your trading platform. You should test configurations carefully before enabling live execution."
+        ],
+        "callout": "No content in Tragram is financial, investment, tax, legal, or professional trading advice."
+      },
+      {
+        "id": "third-party-services",
+        "title": "Third-party services",
+        "body": [
+          "Tragram depends on third-party platforms and infrastructure, including Telegram, MT4/MT5 environments, broker systems, payment processors, cloud providers, communication providers, and AI processing providers where AI-assisted parsing is enabled.",
+          "We do not control those third parties. Their outages, API changes, account restrictions, execution delays, broker rules, liquidity conditions, or payment decisions may affect your use of Tragram."
+        ]
+      },
+      {
+        "id": "accounts-security",
+        "title": "Accounts, credentials, and security",
+        "body": [
+          "You must provide accurate account information, keep credentials confidential, and promptly notify us if you suspect unauthorized access. You are responsible for all activity under your account unless caused by Tragram's proven security failure.",
+          "You may not bypass authentication, share accounts in a way that defeats plan limits, probe the service for vulnerabilities, scrape non-public data, interfere with other users, reverse engineer protected parts of the platform, or use Tragram for unlawful activity."
+        ]
+      },
+      {
+        "id": "subscriptions-payments-refunds",
+        "title": "Subscriptions, payments, and refunds",
+        "body": [
+          "Paid features are provided through subscription plans with the limits shown at purchase or in your account.",
+          "Payments are handled by the providers available in Tragram at checkout. You authorize recurring charges where a recurring subscription is selected, until you cancel or the plan ends.",
+          "Refunds are governed by our Refund Policy. Unless mandatory law requires otherwise, the standard refund window applies only to your first successful paid subscription purchase and must be requested within 14 calendar days."
+        ]
+      },
+      {
+        "id": "availability-changes",
+        "title": "Availability and service changes",
+        "body": [
+          "We aim to provide reliable service, but we do not guarantee uninterrupted availability, specific uptime, parser completeness, execution speed, or continued support for every third-party service or broker setup.",
+          "We may modify, suspend, or discontinue features where needed for security, compliance, platform reliability, product improvement, third-party changes, or business reasons. We will try to provide reasonable notice where a material change affects paid access."
+        ]
+      },
+      {
+        "id": "suspension-termination",
+        "title": "Suspension, termination, and account deletion",
+        "body": [
+          "We may suspend or terminate access if you violate these terms, create security or compliance risk, misuse payments, threaten platform integrity, or use Tragram from a restricted country.",
+          "You may cancel your subscription or request account deletion from your account settings or by contacting support. Some records may be retained or anonymized as described in the Privacy Policy where needed for legal, security, billing, fraud-prevention, dispute, or operational reasons."
+        ]
+      },
+      {
+        "id": "liability",
+        "title": "Disclaimers and limitation of liability",
+        "body": [
+          "Tragram is provided on an as-is and as-available basis. To the maximum extent permitted by law, we disclaim implied warranties of merchantability, fitness for a particular purpose, non-infringement, uninterrupted operation, and error-free results.",
+          "To the maximum extent permitted by law, Tragram F.Z.C will not be liable for trading losses, lost profits, lost opportunity, broker losses, signal provider errors, Telegram or MT platform issues, indirect damages, consequential damages, or losses caused by your configuration choices."
+        ]
+      },
+      {
+        "id": "law-disputes",
+        "title": "Governing law and updates",
+        "body": [
+          "These terms are governed by the laws applicable in the United Arab Emirates and Ajman Free Zone, without limiting any mandatory consumer rights that cannot be waived under applicable law.",
+          "We may update these terms as the product, compliance requirements, or legal obligations change. Material updates will be posted on this page with a new last-updated date."
+        ]
+      }
+    ],
+    "contactTitle": "Questions about these terms?",
+    "contactBody": "Contact us before enabling live execution if you are unsure how these terms apply to your account, country, payment, or trading setup.",
+    "contactLinkLabel": "Contact support"
+  },
+  "privacyPage": {
+    "kicker": "Privacy",
+    "title": "Privacy Policy",
+    "description": "This policy explains how Tragram collects, uses, shares, and retains data when you use our Telegram-to-MT4/MT5 automation platform.",
+    "lastUpdatedLabel": "Last updated",
+    "lastUpdated": "May 27, 2026",
+    "effectiveDateLabel": "Effective date",
+    "effectiveDate": "May 27, 2026",
+    "entityLabel": "Controller",
+    "entityName": "Tragram F.Z.C",
+    "notice": "We use your data to provide the service you configure, protect accounts, process subscriptions, meet legal obligations, and improve platform reliability.",
+    "tableOfContentsTitle": "On this page",
+    "summaryCards": [
+      {
+        "label": "Primary retention",
+        "value": "90 days for operational records unless a longer period is required"
+      },
+      {
+        "label": "Account deletion grace",
+        "value": "Immediate deletion or scheduled deletion after 7 days"
+      },
+      {
+        "label": "AI parsing",
+        "value": "Signal text may be processed to extract trade instructions"
+      },
+      {
+        "label": "Contact",
+        "value": "support@tragram.app"
+      }
+    ],
+    "sections": [
+      {
+        "id": "controller",
+        "title": "Who is responsible for your data",
+        "body": [
+          "Tragram F.Z.C is the controller of personal data processed through Tragram, unless a specific feature or contract says otherwise. Our registered address is B.C. 6010546, Ajman Boulevard-A Building, Ajman Free Zone, Ajman, United Arab Emirates.",
+          "If you use Tragram for an organization, both the organization and the individual account users may have privacy responsibilities depending on how the organization configures Telegram channels and trading accounts."
+        ]
+      },
+      {
+        "id": "data-we-collect",
+        "title": "Data we collect",
+        "bullets": [
+          "Account data such as name, email, phone number, language, country, authentication events, and account settings.",
+          "Telegram connection data such as linked session metadata, selected channels, message identifiers, parsed signal text, parser outputs, and skip or diagnostic reasons.",
+          "Trading workflow data such as connected MT account metadata, symbols, order requests, execution status, trade history, risk settings, take-profit and stop-loss settings, logs, and audit events.",
+          "Billing and subscription data such as plan, invoices, payment provider references, refund requests, payment status, and fraud-prevention metadata.",
+          "Technical data such as device/browser information, IP address, cookies or similar identifiers, session tokens, API logs, error logs, notification tokens, and security events.",
+          "Support and communication data such as contact requests, messages, support history, notification preferences, and related attachments or screenshots you provide."
+        ]
+      },
+      {
+        "id": "how-we-use-data",
+        "title": "How we use data",
+        "body": [
+          "We use personal data to authenticate users, connect Telegram and MT workflows, parse signal messages, execute the settings you choose, display account and trade status, process subscriptions, handle refunds, deliver notifications, provide support, prevent abuse, improve reliability, and comply with legal or payment obligations.",
+          "Where AI-assisted parsing is enabled or required to interpret a signal, message content and related context may be processed by AI systems to extract possible symbol, direction, entry, stop-loss, and take-profit information. AI output can be wrong, incomplete, or affected by the source message format."
+        ]
+      },
+      {
+        "id": "legal-bases",
+        "title": "Legal bases and legitimate interests",
+        "body": [
+          "Depending on your location and the feature used, we process data to perform our contract with you, comply with legal obligations, protect legitimate interests such as security and fraud prevention, respond to your consent where required, or protect vital platform integrity.",
+          "You can withdraw optional consent where a feature depends on consent, but this may disable the related functionality."
+        ]
+      },
+      {
+        "id": "sharing",
+        "title": "Processors and third-party services",
+        "body": [
+          "We share data with service providers only where needed to operate Tragram. These may include hosting and infrastructure providers, database and logging providers, payment processors, email/SMS/push notification providers, analytics and security tools, AI processing providers, Telegram-related integrations, MT/broker connectivity components, and professional advisers.",
+          "Payment details are handled by the payment provider shown at checkout. Tragram does not need full card data to provide subscription status. Third-party platforms such as Telegram, MetaTrader, and your broker process data under their own terms and privacy notices."
+        ]
+      },
+      {
+        "id": "retention",
+        "title": "Retention schedule",
+        "lead": "Our standard retention period for operational records is 90 days unless the data is still needed for the purposes below.",
+        "bullets": [
+          "Account and subscription data is retained while your account or subscription is active and for the period needed for tax, accounting, legal, billing, dispute, refund, chargeback, fraud-prevention, and compliance obligations.",
+          "Telegram skip diagnostics are normally retained for up to 14 days, and read notification records are normally cleaned after 30 days.",
+          "Refresh sessions normally expire after 30 days. Database backups are normally retained for up to 14 days.",
+          "Aggregated administrative analytics may be retained for up to 180 days where needed for operational reporting.",
+          "When you delete your account, Tragram can process the deletion immediately or after a 7-day grace period. Direct identifiers are anonymized and active credentials, sessions, and connected account access are removed, while limited records may remain where necessary for legal, security, fraud-prevention, payment, dispute, or operational reasons."
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Security",
+        "body": [
+          "We use administrative, technical, and organizational measures designed to protect personal data, including access controls, encryption in transit, credential protection, logging, and monitoring. No online service can guarantee absolute security.",
+          "You must keep your Tragram, Telegram, email, phone, MT, and broker credentials secure. Notify us promptly if you believe your account or connected workflow has been compromised."
+        ]
+      },
+      {
+        "id": "international-transfers",
+        "title": "International processing and restricted countries",
+        "body": [
+          "Tragram is operated from the United Arab Emirates and may use service providers in other countries. Where required, we use contractual and operational safeguards for international transfers.",
+          "Tragram is not available in Iran, Russia, Belarus, Myanmar, or North Korea. We may use account, payment, IP, device, and country signals to enforce restricted-country rules and other compliance controls."
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "Your privacy choices and rights",
+        "body": [
+          "Depending on your location, you may have rights to access, correct, delete, restrict, object to, or receive a copy of your personal data. You may also request account deletion, unsubscribe from marketing messages, or contact us about privacy questions.",
+          "We may need to verify your identity before acting on a privacy request. Some requests may be limited where we must keep records for legal, tax, accounting, security, fraud-prevention, payment, or dispute reasons."
+        ]
+      },
+      {
+        "id": "updates",
+        "title": "Policy updates",
+        "body": [
+          "We may update this Privacy Policy as Tragram changes, as legal requirements change, or as we add or remove processors. Material updates will be posted on this page with a new last-updated date."
+        ]
+      }
+    ],
+    "contactTitle": "Privacy questions or requests",
+    "contactBody": "Use the contact page to request access, correction, deletion, or clarification about how your data is handled.",
+    "contactLinkLabel": "Contact privacy support"
+  },
+  "refundPage": {
+    "kicker": "Refunds",
+    "title": "Refund Policy",
+    "description": "This policy explains when subscriptions may be refunded and how to request a review.",
+    "lastUpdatedLabel": "Last updated",
+    "lastUpdated": "May 27, 2026",
+    "effectiveDateLabel": "Effective date",
+    "effectiveDate": "May 27, 2026",
+    "entityLabel": "Applies to",
+    "entityName": "First paid Tragram subscription purchase",
+    "notice": "The standard refund right applies only to your first successful paid subscription purchase. It does not apply to later renewals or additional purchases unless required by law or accepted by Tragram under this policy.",
+    "tableOfContentsTitle": "On this page",
+    "summaryCards": [
+      {
+        "label": "Refund window",
+        "value": "14 calendar days"
+      },
+      {
+        "label": "Eligible purchase",
+        "value": "First successful paid subscription only"
+      },
+      {
+        "label": "Processor",
+        "value": "Payment provider used at checkout"
+      },
+      {
+        "label": "Trading losses",
+        "value": "Not refundable"
+      }
+    ],
+    "sections": [
+      {
+        "id": "eligibility",
+        "title": "Eligibility",
+        "body": [
+          "You may request a refund within 14 calendar days after your first successful paid Tragram subscription purchase. The request must relate to the first paid subscription purchase made through Tragram or its supported checkout provider.",
+          "A first paid subscription purchase means the first time your account successfully pays for a Tragram subscription. The refund window starts when the payment succeeds, not when you first use the service."
+        ]
+      },
+      {
+        "id": "not-refundable",
+        "title": "What is not refundable",
+        "bullets": [
+          "Renewals after the first paid subscription purchase.",
+          "Second or later purchases, account reactivations, upgrades, add-ons, or plan changes, except where mandatory law requires a refund.",
+          "Trading losses, missed trades, signal provider performance, broker execution, slippage, spreads, liquidity, platform outages outside Tragram's control, or configuration choices.",
+          "Payments connected to misuse, restricted-country access, fraud, chargeback abuse, or breach of the Terms of Service."
+        ]
+      },
+      {
+        "id": "exceptions",
+        "title": "Exceptions we may review",
+        "body": [
+          "Even outside the standard first-purchase rule, we may review duplicate charges, clear billing errors, payment provider mistakes, or a material Tragram platform failure that prevented access to paid functionality during the paid period.",
+          "Approval is discretionary unless applicable law requires a specific outcome."
+        ]
+      },
+      {
+        "id": "how-to-request",
+        "title": "How to request a refund",
+        "body": [
+          "Contact support within the refund window and include your Tragram account email or phone number, invoice or payment reference, purchase date, plan name, and a short explanation of the issue.",
+          "We may ask for additional information to verify the payment, confirm account ownership, investigate misuse, or evaluate the request."
+        ]
+      },
+      {
+        "id": "processing",
+        "title": "Processing and access after approval",
+        "body": [
+          "Approved refunds are returned through the original payment method where possible. Timing depends on the payment provider, payment network, bank, and currency route.",
+          "When a refund is approved, Tragram may cancel, downgrade, or disable the paid subscription and related paid features from the refund approval date."
+        ]
+      },
+      {
+        "id": "cancellations",
+        "title": "Cancellations",
+        "body": [
+          "Canceling a subscription stops future renewals according to the plan terms, but it does not automatically refund past charges unless the charge qualifies under this policy."
+        ]
+      },
+      {
+        "id": "law",
+        "title": "Mandatory consumer rights",
+        "body": [
+          "Nothing in this policy limits non-waivable refund or consumer rights that apply under mandatory law. Where a conflict exists, mandatory law controls."
+        ]
+      }
+    ],
+    "contactTitle": "Need a refund review?",
+    "contactBody": "Send the payment reference and account details through the contact page so support can check the request against this policy.",
+    "contactLinkLabel": "Request review"
+  },
+  "accountDeletionPage": {
+    "kicker": "Privacy and account control",
+    "title": "Delete your Tragram account",
+    "description": "Review immediate or scheduled account deletion and complete the required account verification.",
+    "intro": "You can delete your account immediately or schedule deletion seven days from now. Access and automation stop as soon as you confirm, including during the grace period.",
+    "credentialTitle": "Verify your account",
+    "breadcrumbHome": "Home",
+    "stepOf": "Step {current} of {total}",
+    "stepReview": "Review",
+    "stepVerify": "Verify",
+    "stepConfirm": "Confirm",
+    "stepComplete": "Complete",
+    "reviewTitle": "Before you delete your account",
+    "reviewDescription": "Review the effect on access, automation, and retained records before you continue.",
+    "continueToVerify": "Continue to verification",
+    "credentialDescription": "Use the same phone number and password you use to sign in. We use them only to verify this request.",
+    "phoneLabel": "Phone number",
+    "passwordLabel": "Current password",
+    "continue": "Send Telegram code",
+    "sendCode": "Send Telegram code",
+    "processing": "Checking…",
+    "otpTitle": "Enter your Telegram code",
+    "otpLabel": "Six-digit code",
+    "otpPlaceholder": "123456",
+    "resend": "Send again",
+    "telegramTitle": "Finish in Telegram",
+    "telegramDescription": "Open the Tragram bot, tap Start, then return here to send the deletion code.",
+    "telegramStepDescription": "Your account is verified. Complete the Telegram connection below to receive the deletion code.",
+    "telegramContinue": "I started the bot",
+    "continueToConfirm": "Continue to confirmation",
+    "confirmDescription": "Choose when deletion runs and acknowledge each consequence before you confirm.",
+    "completeDescription": "Keep this receipt if you need to check the request later.",
+    "summaryTitle": "What happens next",
+    "summaryAccess": "Access and automation stop when you confirm.",
+    "summaryBroker": "Tragram does not close, cancel, or modify broker positions or orders.",
+    "summaryRetention": "Some records remain for legal, financial, or anti-abuse reasons.",
+    "back": "Back",
+    "modeTitle": "Choose when deletion runs",
+    "immediate": "Delete immediately",
+    "scheduled": "Schedule for seven days",
+    "ackBroker": "I understand Tragram never closes, cancels, or modifies broker positions, pending orders, stop losses, or take profits for deletion.",
+    "ackRetention": "I understand the retention schedule and independent-controller limits described below.",
+    "ackPrepaid": "I understand Confirmo purchases are one-time prepaid access and deletion ends unused access separately from refund review.",
+    "ackImmediate": "I understand immediate deletion is irreversible.",
+    "confirm": "Confirm deletion",
+    "confirming": "Confirming…",
+    "receiptTitle": "Save your deletion receipt",
+    "receiptWarning": "This receipt is shown once. Save it locally; Tragram cannot resend it after identity erasure.",
+    "requestId": "Request ID",
+    "receipt": "Receipt",
+    "copy": "Copy",
+    "saved": "Saved",
+    "status": "Deletion status",
+    "refreshStatus": "Refresh status",
+    "cancelScheduled": "Cancel scheduled deletion",
+    "cancelPassword": "Current password to cancel",
+    "cancel": "Cancel",
+    "cancelling": "Cancelling…",
+    "support": "Need help with verification? Contact support.",
+    "retentionTitle": "What is retained",
+    "retentionRows": [
+      [
+        "Profile identifiers, credentials, Telegram chat IDs, and device tokens",
+        "Erased when deletion executes"
+      ],
+      [
+        "Notifications",
+        "Deleted within 30 days after execution"
+      ],
+      [
+        "Operational, trading, audit, support, and minimized payment records",
+        "Deleted within 90 days after execution"
+      ],
+      [
+        "Anonymous aggregates",
+        "Deleted within 180 days after execution"
+      ],
+      [
+        "Anti-abuse digests",
+        "Deleted within 24 months after execution"
+      ],
+      [
+        "Minimal tax/accounting records and deletion-compliance proof",
+        "Retained seven years under the relevant clock"
+      ]
+    ],
+    "footerNote": "Third parties may retain their own records under their legal obligations. See the Privacy Policy, Terms, Refund Policy, and Contact page.",
+    "error": "We could not complete that step. Please try again or contact support.",
+    "unavailable": "Account deletion requests are temporarily unavailable. Please try again later or contact support."
+  }
+}

@@ -1,0 +1,34 @@
+
+FROM node:22-bookworm-slim AS pruner
+WORKDIR /app
+COPY . .
+RUN --mount=type=cache,id=npm-cache,target=/root/.npm,sharing=locked \
+    TURBO_VERSION="$(node -p 'require("./package-lock.json").packages["node_modules/turbo"].version')" \
+    && npm exec --yes --package="turbo@${TURBO_VERSION}" -- turbo prune --scope=@tragram/webapp --docker
+
+FROM node:22-bookworm-slim AS dev
+WORKDIR /app
+RUN apt-get update \
+    && apt-get install -y --no-install-recommends dumb-init ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+ENV NODE_ENV=development
+
+COPY --from=pruner /app/out/json/ .
+RUN --mount=type=cache,id=npm-cache,target=/root/.npm \
+    npm ci --no-audit --no-fund --include=optional \
+    && if ! node -e "require('@next/swc-linux-x64-gnu')" >/dev/null 2>&1; then \
+      npm ci --no-audit --no-fund --include=optional; \
+    fi \
+    && node -e "require('@next/swc-linux-x64-gnu')"
+
+COPY --from=pruner /app/out/full/ .
+# The pruned source tree can contain package-level dependency metadata that
+# shadows the complete hoisted install from the deps layer. Keep resolution at
+# the root install so development scripts see complete package contents.
+RUN find packages -type d -name node_modules -prune -exec rm -rf {} +
+COPY tsconfig.base.json tsconfig.paths.json ./
+RUN npm run build --workspace=packages/shared/types
+
+ENTRYPOINT ["dumb-init", "--"]
+CMD ["npm", "run", "dev", "--workspace=packages/webapp"]

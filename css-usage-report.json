@@ -1,0 +1,611 @@
+{
+  "generatedAt": "2026-03-05T19:58:35.097Z",
+  "totals": {
+    "totalFiles": 70,
+    "totalBytes": 2333367,
+    "referencedBytes": 886553,
+    "unreferencedBytes": 1446814,
+    "srcBytes": 1673960,
+    "publicBytes": 659407
+  },
+  "rows": [
+    {
+      "path": "public/css/all.min.css",
+      "bytes": 74300,
+      "lines": 9,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "public/css/animate.css",
+      "bytes": 76809,
+      "lines": 3221,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "public/css/bootstrap.min.css",
+      "bytes": 232757,
+      "lines": 5,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "public/css/core.css",
+      "bytes": 92059,
+      "lines": 4380,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "public/css/legacy-pages.css",
+      "bytes": 53964,
+      "lines": 3113,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "public/css/magnific-popup.css",
+      "bytes": 6951,
+      "lines": 352,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "public/css/marketing-landing.css",
+      "bytes": 94729,
+      "lines": 5042,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "public/css/mousecursor.css",
+      "bytes": 6892,
+      "lines": 312,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "public/css/slicknav.min.css",
+      "bytes": 2505,
+      "lines": 6,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "public/css/swiper-bundle.min.css",
+      "bytes": 18441,
+      "lines": 13,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "src/app/[lang]/marketing/styles/all.min.css",
+      "bytes": 74300,
+      "lines": 9,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "src/app/[lang]/marketing/styles/all.min.public-scoped.css",
+      "bytes": 124164,
+      "lines": 15,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "src/app/[lang]/marketing/styles/animate.css",
+      "bytes": 76809,
+      "lines": 3221,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "src/app/[lang]/marketing/styles/animate.public-scoped.css",
+      "bytes": 78411,
+      "lines": 3227,
+      "importers": [
+        "src/app/[lang]/(public)/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/[lang]/marketing/styles/bootstrap.min.css",
+      "bytes": 232757,
+      "lines": 5,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "src/app/[lang]/marketing/styles/bootstrap.min.public-scoped.css",
+      "bytes": 289351,
+      "lines": 11,
+      "importers": [
+        "src/app/[lang]/(public)/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/[lang]/marketing/styles/magnific-popup.css",
+      "bytes": 6951,
+      "lines": 352,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "src/app/[lang]/marketing/styles/mousecursor.css",
+      "bytes": 6936,
+      "lines": 314,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "src/app/[lang]/marketing/styles/mousecursor.public-scoped.css",
+      "bytes": 7740,
+      "lines": 320,
+      "importers": [
+        "src/app/[lang]/(public)/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/[lang]/marketing/styles/slicknav.min.css",
+      "bytes": 2505,
+      "lines": 6,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "src/app/[lang]/marketing/styles/swiper-bundle.min.css",
+      "bytes": 18441,
+      "lines": 13,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "src/app/[lang]/marketing/styles/swiper-bundle.min.public-scoped.css",
+      "bytes": 21992,
+      "lines": 19,
+      "importers": [
+        "src/app/[lang]/(public)/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/globals.css",
+      "bytes": 214,
+      "lines": 7,
+      "importers": [
+        "src/app/[lang]/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/legacy/core.css",
+      "bytes": 93204,
+      "lines": 4406,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "src/app/styles/legacy/core.public-scoped.css",
+      "bytes": 101843,
+      "lines": 4228,
+      "importers": [
+        "src/app/[lang]/(public)/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/legacy/legacy-pages.css",
+      "bytes": 53901,
+      "lines": 3110,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "src/app/styles/legacy/legacy-pages.public-scoped.css",
+      "bytes": 66142,
+      "lines": 3063,
+      "importers": [
+        "src/app/[lang]/(public)/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/legacy/marketing-landing.css",
+      "bytes": 95101,
+      "lines": 5068,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "src/app/styles/legacy/marketing-landing.public-scoped.css",
+      "bytes": 113034,
+      "lines": 5036,
+      "importers": [
+        "src/app/[lang]/(public)/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/auth.css",
+      "bytes": 7048,
+      "lines": 337,
+      "importers": [
+        "src/app/[lang]/auth/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/channels-detail.css",
+      "bytes": 20211,
+      "lines": 1129,
+      "importers": [
+        "src/app/styles/pages/channels.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/channels-list.css",
+      "bytes": 5992,
+      "lines": 333,
+      "importers": [
+        "src/app/styles/pages/channels.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/channels-responsive.css",
+      "bytes": 4536,
+      "lines": 252,
+      "importers": [
+        "src/app/styles/pages/channels.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/channels-sheets.css",
+      "bytes": 6122,
+      "lines": 331,
+      "importers": [
+        "src/app/styles/pages/channels.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/channels-shell.css",
+      "bytes": 3363,
+      "lines": 202,
+      "importers": [
+        "src/app/styles/pages/channels.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/channels.css",
+      "bytes": 199,
+      "lines": 8,
+      "importers": [
+        "src/app/[lang]/channels/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/contact.css",
+      "bytes": 2085,
+      "lines": 136,
+      "importers": [
+        "src/app/[lang]/profile/contact/page.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/dashboard-layout.css",
+      "bytes": 6112,
+      "lines": 341,
+      "importers": [
+        "src/app/styles/pages/dashboard.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/dashboard-main.css",
+      "bytes": 15379,
+      "lines": 833,
+      "importers": [
+        "src/app/styles/pages/dashboard.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/dashboard-modals.css",
+      "bytes": 23717,
+      "lines": 1220,
+      "importers": [
+        "src/app/styles/pages/dashboard.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/dashboard-orders.css",
+      "bytes": 6203,
+      "lines": 336,
+      "importers": [
+        "src/app/styles/pages/dashboard.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/dashboard-shared.css",
+      "bytes": 10244,
+      "lines": 573,
+      "importers": [
+        "src/app/[lang]/channels/layout.tsx",
+        "src/app/[lang]/profile/layout.tsx",
+        "src/app/[lang]/reports/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/dashboard-skeleton.css",
+      "bytes": 6401,
+      "lines": 380,
+      "importers": [
+        "src/app/styles/pages/dashboard.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/dashboard.css",
+      "bytes": 204,
+      "lines": 8,
+      "importers": [
+        "src/app/[lang]/dashboard/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/profile-legacy-scaffold.css",
+      "bytes": 13992,
+      "lines": 741,
+      "importers": [
+        "src/app/styles/pages/profile.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/profile-shell.css",
+      "bytes": 1984,
+      "lines": 109,
+      "importers": [
+        "src/app/[lang]/channels/layout.tsx",
+        "src/app/[lang]/dashboard/layout.tsx",
+        "src/app/[lang]/profile/layout.tsx",
+        "src/app/[lang]/reports/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/profile.css",
+      "bytes": 24837,
+      "lines": 1419,
+      "importers": [
+        "src/app/[lang]/profile/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/public-faqs.css",
+      "bytes": 3202,
+      "lines": 100,
+      "importers": [
+        "src/app/[lang]/(public)/faqs/page.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/public-home.css",
+      "bytes": 53,
+      "lines": 2,
+      "importers": [
+        "src/app/[lang]/(public)/page.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/public-legal.css",
+      "bytes": 0,
+      "lines": 1,
+      "importers": [
+        "src/app/[lang]/(public)/help-center/page.tsx",
+        "src/app/[lang]/(public)/privacy-policy/page.tsx",
+        "src/app/[lang]/(public)/refund-policy/page.tsx",
+        "src/app/[lang]/(public)/terms-of-service/page.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/public-marketing.css",
+      "bytes": 322,
+      "lines": 13,
+      "importers": [
+        "src/app/[lang]/(public)/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/public-parity.css",
+      "bytes": 2082,
+      "lines": 109,
+      "importers": [
+        "src/app/[lang]/(public)/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/reports-filters.css",
+      "bytes": 3509,
+      "lines": 192,
+      "importers": [
+        "src/app/styles/pages/reports.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/reports-overview.css",
+      "bytes": 8299,
+      "lines": 501,
+      "importers": [
+        "src/app/styles/pages/reports.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/reports-responsive.css",
+      "bytes": 1777,
+      "lines": 123,
+      "importers": [
+        "src/app/styles/pages/reports.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/reports-share.css",
+      "bytes": 4644,
+      "lines": 242,
+      "importers": [
+        "src/app/styles/pages/reports.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/reports-skeleton.css",
+      "bytes": 2919,
+      "lines": 144,
+      "importers": [
+        "src/app/styles/pages/reports.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/pages/reports.css",
+      "bytes": 200,
+      "lines": 8,
+      "importers": [
+        "src/app/[lang]/reports/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/shared/base.css",
+      "bytes": 376,
+      "lines": 13,
+      "importers": [
+        "src/app/globals.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/shared/modals.css",
+      "bytes": 514,
+      "lines": 23,
+      "importers": [
+        "src/app/globals.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/shared/motion.css",
+      "bytes": 1786,
+      "lines": 105,
+      "importers": [
+        "src/app/globals.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/shared/tokens.css",
+      "bytes": 3410,
+      "lines": 106,
+      "importers": [
+        "src/app/globals.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/shared/utilities.css",
+      "bytes": 464,
+      "lines": 24,
+      "importers": [
+        "src/app/globals.css"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/app/styles/vendor/fontawesome-app-subset.css",
+      "bytes": 9449,
+      "lines": 9,
+      "importers": [
+        "src/app/[lang]/(public)/layout.tsx",
+        "src/app/[lang]/channels/layout.tsx",
+        "src/app/[lang]/dashboard/layout.tsx",
+        "src/app/[lang]/profile/layout.tsx",
+        "src/app/[lang]/reports/layout.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/components/dashboard/dashboard-base-layout.module.css",
+      "bytes": 2338,
+      "lines": 153,
+      "importers": [],
+      "isReferenced": false
+    },
+    {
+      "path": "src/components/dashboard/dashboard-shell.module.css",
+      "bytes": 1159,
+      "lines": 64,
+      "importers": [
+        "src/components/dashboard/dashboard-shell.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/components/dashboard/dashboard-sidebar.module.css",
+      "bytes": 1484,
+      "lines": 96,
+      "importers": [
+        "src/components/dashboard/dashboard-sidebar.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/components/dashboard/mobile-bottom-nav.module.css",
+      "bytes": 834,
+      "lines": 50,
+      "importers": [
+        "src/components/dashboard/mobile-bottom-nav.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/components/profile/logout-modal.module.css",
+      "bytes": 1772,
+      "lines": 106,
+      "importers": [
+        "src/components/profile/logout-modal.tsx"
+      ],
+      "isReferenced": true
+    },
+    {
+      "path": "src/components/symbols/symbol-pair-badge.module.css",
+      "bytes": 942,
+      "lines": 56,
+      "importers": [
+        "src/components/symbols/symbol-pair-badge.tsx"
+      ],
+      "isReferenced": true
+    }
+  ]
+}

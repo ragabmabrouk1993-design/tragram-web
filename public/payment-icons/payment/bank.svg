@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bank transfer">
+  <rect width="64" height="64" rx="18" fill="#0F172A"/>
+  <path d="M14 27h36L32 16 14 27Z" fill="#2563EB"/>
+  <path d="M18 30h6v17h-6V30Zm11 0h6v17h-6V30Zm11 0h6v17h-6V30Z" fill="#93C5FD"/>
+  <path d="M15 50h34" stroke="#DBEAFE" stroke-width="4" stroke-linecap="round"/>
+</svg>

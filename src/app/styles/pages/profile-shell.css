@@ -1,0 +1,113 @@
+/* Shared profile navigation shell (used by /profile desktop and dashboard More panel) */
+.profile-shell-grid {
+  display: grid;
+  grid-template-columns: 320px minmax(0, 1fr);
+  gap: 30px;
+}
+
+.profile-shell-sidebar {
+  position: sticky;
+  top: 120px;
+  align-self: flex-start;
+}
+
+.profile-nav-section {
+  background: rgba(10, 15, 26, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 24px;
+  margin-bottom: 24px;
+}
+
+.profile-nav-section:last-child {
+  margin-bottom: 0;
+}
+
+.profile-nav-section-title {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: rgba(255, 255, 255, 0.55);
+  margin: 0 0 16px;
+}
+
+.profile-nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.profile-nav-link {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 12px 14px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(9, 13, 24, 0.88);
+  color: rgba(255, 255, 255, 0.78);
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.profile-nav-link:hover {
+  border-color: rgba(255, 255, 255, 0.35);
+}
+
+.profile-nav-link.is-active {
+  border-color: rgba(15, 107, 255, 0.5);
+  background: rgba(15, 107, 255, 0.18);
+  color: #fff;
+}
+
+.profile-nav-link.is-accent {
+  border-color: rgba(239, 68, 68, 0.4);
+  color: #ef4444;
+}
+
+.profile-nav-icon {
+  width: 18px;
+  height: 18px;
+  margin-top: 2px;
+  flex-shrink: 0;
+  color: inherit;
+}
+
+.profile-nav-text {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.profile-nav-title {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.profile-nav-link.is-accent .profile-nav-title {
+  color: #ef4444;
+}
+
+.profile-nav-description {
+  display: block;
+  font-size: 12px;
+  line-height: 1.35;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.profile-nav-link.is-accent .profile-nav-description {
+  color: rgba(239, 68, 68, 0.78);
+}
+
+.profile-shell-main {
+  min-width: 0;
+}
+
+.profile-shell-main-full {
+  width: min(1080px, 100%);
+  margin: 0 auto;
+}

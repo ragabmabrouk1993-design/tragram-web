@@ -1,0 +1,263 @@
+{
+  "channelSettingsPage": {
+    "title": "Channel Settings",
+    "subtitle": "Define how this channel executes trades on your MT account.",
+    "loading": "Loading settings...",
+    "groups": {
+      "eligibility": {
+        "title": "Symbol & trade eligibility",
+        "subtitle": "Control which symbols this channel can trade and how many positions it can open."
+      },
+      "risk": {
+        "title": "Risk & position sizing",
+        "subtitle": "Define how trades are sized and how much you risk per trade."
+      },
+      "incompleteSignal": {
+        "title": "Incomplete signals",
+        "subtitle": "Define how to handle signals missing entry, SL, or TP."
+      },
+      "management": {
+        "title": "Trade management",
+        "subtitle": "Manage open positions using break-even, trailing stop, and TP rules."
+      }
+    },
+    "symbols": {
+      "title": "Allowed symbols",
+      "subtitle": "Select which symbols this channel is allowed to trade. Based on your connected MT account.",
+      "allTradable": "All tradable symbols",
+      "selectedOnly": "Only selected symbols",
+      "modeDescriptionAll": "The account catalog decides which symbols are executable.",
+      "modeDescriptionSelected": "Only the exact broker symbols selected below can be traded.",
+      "disabled": "Trading disabled",
+      "closeOnly": "Close-only",
+      "capabilityUnknown": "Trading capability unconfirmed",
+      "accountRequired": "Link a connected MT account to load the exact tradable symbol catalog.",
+      "add": "Add symbol",
+      "remove": "Remove",
+      "selectTitle": "Select symbols",
+      "searchPlaceholder": "Search symbol or pair",
+      "empty": "No symbols found.",
+      "noneSelected": "No symbol filter set. This channel can trade all symbols available in your MT account.",
+      "catalogEmpty": "No symbol data available. Connect and sync your MT account to load symbols.",
+      "loadError": "We couldn't load the tradable symbols for this account. Refresh the page and try again."
+    },
+    "limits": {
+      "title": "Trade limits",
+      "subtitle": "These limits prevent the channel from opening new trades.",
+      "active": {
+        "title": "Max active trades",
+        "description": "Maximum number of open positions from this channel at the same time."
+      },
+      "daily": {
+        "title": "Max trades per day",
+        "description": "Maximum number of trades this channel can open per UTC day."
+      },
+      "duplicateTimeout": {
+        "title": "Duplicate signal timeout",
+        "description": "Minutes before the same matching signal can be accepted again."
+      }
+    },
+    "risk": {
+      "title": "Risk & position sizing",
+      "subtitle": "Configure lot size and risk per trade.",
+      "fixed": {
+        "label": "Fixed cash risk",
+        "description": "Risk a fixed amount on every trade.",
+        "valueLabel": "Risk per trade (cash)"
+      },
+      "percentage": {
+        "label": "Equity percentage",
+        "description": "Risk a percentage of your equity. Lot size is calculated automatically.",
+        "valueLabel": "Risk per trade (% of equity)"
+      },
+      "fixedLot": {
+        "label": "Fixed lot size",
+        "description": "Use a fixed lot size. Trades are skipped if not allowed by your broker.",
+        "valueLabel": "Lot size"
+      },
+      "maxLots": {
+        "label": "Max lot size",
+        "description": "Optional cap on the final lot size after all calculations.",
+        "placeholder": "Example: 1.5"
+      },
+      "maxSlPips": {
+        "label": "Max SL distance",
+        "description": "Set the maximum SL pips accepted for a signal. Signals with SL pips greater than this value are discarded. Leave blank to disable this limit.",
+        "placeholder": "Example: 100"
+      },
+      "tp1VsSlGuard": {
+        "label": "Reject when SL is greater than TP1",
+        "description": "Discard signals where the stop-loss distance is greater than the TP1 distance."
+      },
+      "minLotsOverride": {
+        "label": "Use broker minimum lot",
+        "description": "If calculated lot is below the broker minimum, use the minimum instead of skipping the trade."
+      },
+      "lotRoundingMode": {
+        "label": "Lot rounding",
+        "description": "Define how lot size is rounded to match broker lot steps.",
+        "options": {
+          "FLOOR": "Round down (safer)",
+          "ROUND": "Round to nearest",
+          "CEIL": "Round up (higher risk)"
+        }
+      },
+      "placeholderFixed": "Example: 25",
+      "placeholderPercent": "Example: 1",
+      "placeholderFixedLot": "Example: 0.1"
+    },
+    "executionFlex": {
+      "title": "Incomplete signals",
+      "subtitle": "Define behavior when signals are missing entry, SL, or TP.",
+      "allowWithoutSlTp": {
+        "label": "Allow trades without SL/TP",
+        "description": "Execute trades even if SL or TP is missing."
+      },
+      "allowProviderSlWidening": {
+        "label": "Allow provider SL widening",
+        "description": "High risk: allow a provider update to move the stop loss farther from safety."
+      },
+      "allowForwardedSignals": {
+        "label": "Allow forwarded signals",
+        "description": "Copy signals forwarded into this channel. Disable to trade only original signals."
+      },
+      "marketEntryTolerance": {
+        "sectionTitle": "Entry tolerance",
+        "label": "Entry tolerance",
+        "description": "Better prices always open at market. Worse prices open at market only while they stay within the configured trader-point tolerance converted from min lot and contract size.",
+        "modeLabel": "Tolerance type",
+        "options": {
+          "EXACT": "One broker tick",
+          "PIPS": "Within trader pips"
+        },
+        "pipsLabel": "Allowed range (pips)",
+        "pipsPlaceholder": "Example: 30"
+      },
+      "limitOrderHandling": {
+        "title": "If price moves away",
+        "subtitle": "When a worse price exceeds tolerance, place a limit order at the original entry. If this is off, reject the signal. Better prices still open at market.",
+        "enabled": {
+          "label": "Place limit order at original entry",
+          "description": "When a worse price exceeds tolerance, place a limit order instead of rejecting the signal."
+        },
+        "limitExpirationLabel": "Limit order expiry (minutes)",
+        "expirationDescription": "Tragram cancels the pending order after this time. Broker expiry may be set later as a backup when the broker requires it.",
+        "expirationPlaceholder": "Example: 60"
+      },
+      "missingSl": {
+        "pipsLabel": "SL distance (pips)",
+        "pipsPlaceholder": "Example: 300",
+        "description": "Used to calculate an SL when the signal does not include one.",
+        "overridesButton": "Symbol overrides",
+        "overridesTitle": "SL overrides by symbol",
+        "overridePlaceholder": "Example: 150",
+        "addOverride": "Add symbol rule"
+      }
+    },
+    "breakEven": {
+      "title": "Break-even",
+      "subtitle": "Move SL to entry once the trade is in profit.",
+      "disabledForTrailingLevels": "Break-even is disabled when trailing follows TP levels.",
+      "enabled": {
+        "label": "Enable break-even",
+        "description": "Automatically move SL to entry when conditions are met."
+      },
+      "offset": {
+        "label": "Lock profit after break-even",
+        "valueLabel": "Profit lock pips",
+        "description": "When break-even triggers, move SL this many pips beyond entry. Use 0 to move SL exactly to entry.",
+        "placeholder": "Example: 2"
+      },
+      "disabledHint": "Break-even is disabled.",
+      "tpHit": {
+        "label": "After TP hit",
+        "description": "Move SL after selected TP is reached.",
+        "targetLabel": "Trigger TP"
+      },
+      "fixedPips": {
+        "label": "After fixed profit (pips)",
+        "description": "Move SL after reaching this profit.",
+        "valueLabel": "Profit (pips)",
+        "placeholder": "Example: 20"
+      }
+    },
+    "trailing": {
+      "title": "Trailing stop",
+      "subtitle": "Adjust SL as price moves in your favor.",
+      "enabledHint": "Applies to new trades from this channel.",
+      "disabledHint": "Trailing stop is disabled.",
+      "enabled": {
+        "label": "Enable trailing stop",
+        "description": "Automatically adjust SL as price moves."
+      },
+      "modes": {
+        "step": {
+          "label": "Step by pips",
+          "description": "After price moves X pips in profit, move SL by Y pips."
+        },
+        "tpLevels": {
+          "label": "Follow TP levels",
+          "description": "Move SL only when TP levels are reached.",
+          "hint": "Overrides break-even."
+        }
+      },
+      "step": {
+        "triggerLabel": "Price move trigger (pips)",
+        "triggerPlaceholder": "Example: 10",
+        "moveLabel": "SL move amount (pips)",
+        "movePlaceholder": "Example: 5"
+      }
+    },
+    "tpExecution": {
+      "title": "Take-profit levels",
+      "subtitle": "Define how TP levels are applied.",
+      "all": "Use all TP levels",
+      "allDescription": "Apply all TP levels from the signal.",
+      "specific": "Use selected TP levels",
+      "specificDescription": "Apply only selected TP levels.",
+      "targetsLabel": "Allowed TP levels"
+    },
+    "customPercentages": {
+      "title": "Position split by TP",
+      "note": "*Total must equal {target}%.*",
+      "total": "Total: {total}%",
+      "disabledHint": "Available only when selected TP levels are used."
+    },
+    "toasts": {
+      "saveSuccess": "Settings saved successfully.",
+      "saveError": "We couldn't confirm whether your settings were saved. Reload your settings to check before trying again.",
+      "validation": "Please fix highlighted fields."
+    },
+    "validation": {
+      "maxActiveOrdersMin": "Max active trades must be at least 1.",
+      "maxDailyTradesMin": "Max trades per day must be at least 1.",
+      "duplicateSignalTimeoutMinutesMin": "Duplicate signal timeout must be at least 1 minute.",
+      "riskPerTradePositive": "Risk per trade must be greater than 0.",
+      "fixedLotSizePositive": "Lot size must be greater than 0.",
+      "riskPercentageRange": "Risk percentage must be between 0 and 100.",
+      "maxLotsPositive": "Max lot size must be greater than 0.",
+      "maxSlPipsPositive": "Max SL distance must be greater than 0.",
+      "limitOrderExpirationPositive": "Limit order expiry must be greater than 0.",
+      "marketEntryTolerancePipsPositive": "Entry tolerance must be greater than 0.",
+      "missingSlPipsPositive": "SL distance pips must be greater than 0.",
+      "missingSlSymbolInvalid": "Each SL override must include a valid symbol.",
+      "missingSlOverridePositive": "Each SL override must be greater than 0.",
+      "breakEvenProfitLockRange": "Profit lock pips must be 0 or greater.",
+      "trailingStopStepTriggerPositive": "Price move trigger must be greater than 0.",
+      "trailingStopStepMovePositive": "SL move amount must be greater than 0.",
+      "breakEvenTpTargetRequired": "Select a TP to trigger break-even.",
+      "breakEvenTriggerRange": "Break-even trigger must be greater than 0.",
+      "tpTargetsRequired": "Select at least one TP level.",
+      "customPercentagesRange": "Each TP percentage must be between 0 and 100.",
+      "customPercentagesTotal": "TP percentages must total exactly {target}%.",
+      "planMaxActiveOrders": "Your plan limits active trades.",
+      "planMaxDailyTrades": "Your plan limits daily trades.",
+      "planAllowExecutionWithoutSlTp": "Your plan does not allow trades without SL/TP."
+    },
+    "buttons": {
+      "save": "Save",
+      "saving": "Saving...",
+      "select": "Select"
+    }
+  }
+}

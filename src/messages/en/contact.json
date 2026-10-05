@@ -1,0 +1,16 @@
+{
+  "contactPage": {
+    "kicker": "Contact",
+    "title": "Contact Tragram",
+    "description": "Have a question about the platform, integrations, or your account? Send us a message and our team will get back to you shortly.",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Your name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "you@example.com",
+      "messageLabel": "Message",
+      "messagePlaceholder": "How can we help you?",
+      "cta": "Send Message"
+    }
+  }
+}

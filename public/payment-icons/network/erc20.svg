@@ -1,0 +1,6 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ERC20">
+  <rect width="64" height="64" rx="18" fill="#0F172A"/>
+  <path d="M32 10 18 33l14 8 14-8L32 10Z" fill="#CBD5E1"/>
+  <path d="M18 36l14 18 14-18-14 8-14-8Z" fill="#64748B"/>
+  <path d="M32 10v31l14-8-14-23Z" fill="#94A3B8"/>
+</svg>

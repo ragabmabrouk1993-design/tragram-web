@@ -1,0 +1,23 @@
+.glow-button {
+  box-shadow: 0 20px 35px rgba(13, 110, 255, 0.35);
+}
+
+.tg-grid {
+  position: relative;
+}
+
+.tg-grid::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 60px 60px;
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.language-switch-shell {
+  display: inline-flex;
+}

@@ -1,0 +1,353 @@
+{
+  "home": {
+    "badge": "Now live. Automation with user control.",
+    "heroStatements": [
+      "Tragram is the trade execution assistant that keeps <span class='text-transparent bg-clip-text bg-linear-to-r from-primary to-accent'>you in control</span>. Connect Telegram, sync MT4/MT5, and automate with confidence.",
+      "Run user-defined execution rules, review each action, and pause automation at any time.",
+      "Monitor connected MT4/MT5 accounts from one place and keep execution fully under your control."
+    ],
+    "heroStatementPlaceholder": "Tragram is the trade execution assistant that keeps you in control. Connect Telegram, sync MT4/MT5, and automate with confidence.",
+    "heroDescription": "Build your rules, enable automation, and maintain full visibility; Tragram routes your authenticated signals through a secure API so you can see every action.",
+    "primaryCta": "Get Started",
+    "secondaryCta": "See what's inside",
+    "trustLogos": [
+      "Confirmo",
+      "MT4/MT5",
+      "Telegram",
+      "Secure Wallet"
+    ],
+    "previewHeading": "Live order stream",
+    "previewSubtitle": "Fetching signal...",
+    "previewStatus": "CONFIRMED",
+    "whyTitle": "Why Tragram?",
+    "featurePillars": [
+      {
+        "title": "Automated execution",
+        "description": "Rule-based execution checks keep automation aligned with your settings, not ours."
+      },
+      {
+        "title": "Instant channel sync",
+        "description": "Connect Telegram once, choose channels, and watch orders flow into MT4/MT5."
+      },
+      {
+        "title": "Secure infrastructure",
+        "description": "Enterprise-grade authentication, OTP protection, and JWT sessions across devices."
+      }
+    ],
+    "stats": [
+      {
+        "label": "Connected servers",
+        "value": "120+"
+      },
+      {
+        "label": "Signals routed daily",
+        "value": "3.2K"
+      },
+      {
+        "label": "Avg. automation uptime",
+        "value": "99.98%"
+      }
+    ],
+    "launchLabel": "Ready to launch",
+    "launchHeading": "A polished experience built for traders who value control over automation.",
+    "launchDescription": "The next step is simple: join the community, choose a plan, and connect your MT4/MT5 and Telegram setup.",
+    "launchCta": "View plans"
+  },
+  "home2": {
+    "nav": {
+      "home": "Home",
+      "homeVersion1": "Home - Overview",
+      "homeVersion2": "Home - Signals",
+      "homeVersion3": "Home - Terminal",
+      "about": "About",
+      "features": "Features",
+      "blog": "Blog",
+      "pages": "Pages",
+      "blogDetails": "Insight Detail",
+      "team": "Team",
+      "teamDetails": "Team Detail",
+      "pricing": "Pricing",
+      "testimonials": "Testimonials",
+      "imageGallery": "Media",
+      "faqs": "FAQs",
+      "notFound": "404",
+      "contact": "Contact",
+      "downloadApp": "Get Started",
+      "login": "Sign In",
+      "dashboard": "Dashboard",
+      "logout": "Sign Out"
+    },
+    "hero": {
+      "kicker": "Telegram signals, executed on your terms",
+      "title": "Connect Telegram channels to MT4/MT5 without giving up control",
+      "subtitle": "Tragram follows the channels you choose, applies your rules, and routes eligible trades to your MT account with clear review and pause controls.",
+      "ctaPrimary": "Create Account",
+      "ctaSecondary": "Watch workflow preview",
+      "playLabel": "Play",
+      "weeklyTaskTitle": "Before a trade goes live",
+      "weeklyTaskSubtitle": "Signal review, risk checks, and execution rules stay visible",
+      "taskCompleted": "Execution visibility",
+      "engagedUsers": "User-controlled workflow"
+    },
+    "about": {
+      "kicker": "About Tragram",
+      "title": "Automation that stays visible from signal to execution",
+      "body": "Tragram helps retail traders follow Telegram signals without giving up control. You choose channels, set rules, and decide how much automation is allowed.",
+      "item1Title": "Rules before execution",
+      "item1Body": "Set execution rules, risk limits, symbol filters, and execution behavior before trades reach MT4/MT5.",
+      "item2Title": "A clear record of every action",
+      "item2Body": "Keep signal intake, trade decisions, and account activity in one visible workflow.",
+      "counter1Label": "Signals reviewed with configured rules",
+      "counter2Label": "Connected Telegram channels",
+      "counter3Label": "Linked MT accounts"
+    },
+    "features": {
+      "kicker": "Core Features",
+      "title": "The controls signal followers actually need",
+      "item1Title": "Connect the channels you trust",
+      "item1Body": "Select Telegram channels and keep signal intake organized in one place.",
+      "item1Tag": "Signal intake",
+      "item2Title": "Link MT4/MT5 securely",
+      "item2Body": "Connect your trading account and route eligible signals through your own rules.",
+      "item2Tag": "Execution",
+      "item3Title": "Set risk and execution rules",
+      "item3Body": "Choose execution rules, symbol filters, sizing behavior, and trade limits per channel.",
+      "item3Tag": "Guardrails",
+      "item4Title": "See what happened and why",
+      "item4Body": "Review open orders, execution history, and rule-driven decisions without guessing.",
+      "item4Tag": "Compliance",
+      "footerTag1": "User-controlled automation",
+      "footerTag2": "Telegram to MT4/MT5",
+      "footerTag3": "Execution audit trail",
+      "footerTag4": "Risk-first rules",
+      "footerText": "Need a clearer way to follow Telegram signals?",
+      "footerLink": "See how it works"
+    },
+    "whyChoose": {
+      "kicker": "Why Tragram",
+      "title": "Built for traders who want automation with guardrails",
+      "body": "Tragram is designed for signal followers who want faster execution without losing visibility into channels, rules, or account risk.",
+      "ratingLabel": "User-rated control",
+      "item1Title": "Approve or automate on your terms",
+      "item1Body": "Review channel settings before enabling rule-based execution and verify results in execution history.",
+      "item2Title": "Pause quickly",
+      "item2Body": "Stop a channel, adjust settings, or disable execution without disconnecting everything.",
+      "item3Title": "Keep risk visible",
+      "item3Body": "Track how each channel is allowed to trade before new orders reach your MT account."
+    },
+    "digitalCompanion": {
+      "kicker": "Execution companion",
+      "title": "One workflow for channels, rules, and MT execution",
+      "body": "Bring Telegram signals, MT accounts, and execution rules into one place so you can review the flow before trades reach your account.",
+      "listItem1": "Choose which Telegram channels Tragram should follow.",
+      "listItem2": "Link MT4/MT5 accounts you want to manage.",
+      "listItem3": "Set channel-specific execution rules, filters, and sizing rules.",
+      "listItem4": "Pause or tighten execution when conditions change.",
+      "item1Title": "Signal review without guesswork",
+      "item1Body": "Keep the signal path visible from intake to order status.",
+      "item2Title": "Automation you can interrupt",
+      "item2Body": "Change rules, pause channels, or review trades without rebuilding the setup.",
+      "cta": "Learn how Tragram works"
+    },
+    "benefits": {
+      "kicker": "Benefits",
+      "title": "Follow more signals without giving up control",
+      "body": "Use Tragram to keep Telegram signal trading organized, reviewable, and easier to manage across accounts.",
+      "cta": "Explore features",
+      "feature1Title": "Review-ready signal flow",
+      "feature1Body": "Incoming signals stay visible before and after execution so you can understand what is happening.",
+      "activeUsersLabel": "Active traders monitored",
+      "feature2Title": "Per-channel execution setup",
+      "feature2Body": "Configure symbols, execution rules, and sizing behavior for each channel instead of relying on one global setting.",
+      "feature3Title": "Fast intervention when conditions change",
+      "feature3Body": "If a channel becomes noisy or market conditions shift, pause or tighten the workflow immediately.",
+      "feature3ListItem1": "Adjust automation rules without reconnecting your accounts",
+      "feature3ListItem2": "Keep trade decisions visible in your dashboard"
+    },
+    "tools": {
+      "kicker": "Integrations",
+      "title": "The trading stack you already use, connected",
+      "body": "Tragram sits between Telegram and MT4/MT5 so you can keep your current signal sources while adding execution controls.",
+      "featureItem1": "Telegram channel listener",
+      "featureItem2": "MT4/MT5 execution bridge",
+      "featureItem3": "Billing and plan controls",
+      "cta": "Talk to Support",
+      "playLabel": "Play",
+      "ctaSecondary": "Watch setup preview"
+    },
+    "pricing": {
+      "kicker": "Pricing",
+      "title": "Plans based on channel and account capacity",
+      "tabMonthly": "Monthly",
+      "tabYearly": "Yearly",
+      "planBasic": "Basic",
+      "planStandard": "Pro",
+      "planEnterprise": "Enterprise",
+      "planDescription": "For traders who want Telegram-to-MT execution with execution rules, risk rules, and account oversight.",
+      "monthlySuffix": "/mo",
+      "yearlySuffix": "/yr",
+      "includedTitle": "Included with every plan:",
+      "feature1": "Channel and MT account limits by plan",
+      "feature2": "Risk rules and execution controls",
+      "feature3": "Visibility into open orders, history, and account activity",
+      "cta": "Start with Tragram",
+      "benefit1": "Review your current access",
+      "benefit2": "Check limits in your account",
+      "benefit3": "Paid purchases currently disabled"
+    },
+    "testimonials": {
+      "kicker": "Workflow",
+      "title": "Review rules and outcomes",
+      "dragLabel": "Drag",
+      "slide1Quote": "Configure channel rules before enabling execution.",
+      "slide1Name": "Execution rules",
+      "slide1Role": "Channel configuration",
+      "slide2Quote": "Set channel-specific lot sizing and symbol filters before orders reach your broker.",
+      "slide2Name": "Channel rules",
+      "slide2Role": "Execution guardrails",
+      "slide3Quote": "Pause a channel, inspect logs, and restart when market conditions make sense again.",
+      "slide3Name": "Pause controls",
+      "slide3Role": "Operator visibility",
+      "ctaTitle": "Keep the workflow reviewable",
+      "ctaBody": "Tragram is built so you can inspect signal handling before and after execution.",
+      "footerText": "Every action stays visible before, during, and after execution.",
+      "footerReviews": "Built for disciplined signal handling."
+    },
+    "faqs": {
+      "kicker": "FAQs",
+      "title": "Answers for signal execution and automation",
+      "body": "Common questions from traders who want to connect Telegram signals to MT4/MT5 without giving up control.",
+      "cta": "View all FAQs",
+      "ratingLabel": "Control stays with you",
+      "ratingBody": "Choose channels, set rules, and decide how much automation is allowed.",
+      "satisfactionLabel": "Pause, adjust, or disable execution at any time from your dashboard.",
+      "questions": [
+        {
+          "q": "Q1. What does Tragram actually do?",
+          "a": "Tragram connects selected Telegram channels to your MT4/MT5 workflow. It helps you review, filter, and execute signals based on the rules you set."
+        },
+        {
+          "q": "Q2. Do I have to auto-execute every signal?",
+          "a": "No. Eligible entries must pass the configured rules and target the selected execution account. Disabling new entries does not close existing broker positions."
+        },
+        {
+          "q": "Q3. Can I limit what a channel is allowed to trade?",
+          "a": "Yes. You can set symbol filters, trade limits, sizing rules, and other channel-specific controls before trades go to your MT account."
+        },
+        {
+          "q": "Q4. What happens if I want to stop a channel quickly?",
+          "a": "You can disable or pause the channel from the dashboard and prevent new trades from being opened while you review the setup."
+        },
+        {
+          "q": "Q5. Does Tragram provide signals or trading advice?",
+          "a": "No. Tragram is a user-controlled execution and automation assistant. It does not sell signals or provide financial advice."
+        },
+        {
+          "q": "Q6. Does it work with both MT4 and MT5?",
+          "a": "Yes. Tragram supports MT4 and MT5 accounts, with the exact workflow depending on your connected account and plan."
+        }
+      ]
+    },
+    "cta": {
+      "kicker": "Ready to connect your setup?",
+      "title": "Start with a workflow you can review, pause, and control",
+      "body": "Create your account, connect Telegram and MT4/MT5, then decide how signals should be filtered and executed.",
+      "downloadsLabel": "Review before automation"
+    },
+    "blog": {
+      "kicker": "Insights",
+      "title": "Product notes and execution insights",
+      "readMore": "Read more",
+      "viewLabel": "View",
+      "post1Title": "Designing human-in-the-loop automation",
+      "post1Body": "How Tragram keeps you in control of every signal.",
+      "post2Title": "Connecting Telegram to MT4/MT5 safely",
+      "post2Body": "A look at our execution pipeline and guardrails.",
+      "post3Title": "Risk-first rules for signal trading",
+      "post3Body": "Guardrails that protect your account."
+    },
+    "footer": {
+      "about": "Tragram is a user-controlled execution assistant for traders who follow Telegram signals and manage execution on MT4/MT5.",
+      "addressLabel": "Location:",
+      "addressValue": "Ajman, UAE",
+      "quickLinksTitle": "Quick Links",
+      "quickLinkHome": "Home",
+      "quickLinkAbout": "About",
+      "quickLinkBlog": "Blog",
+      "quickLinkPricing": "Pricing",
+      "quickLinkFeatures": "Features",
+      "quickLinkContact": "Contact",
+      "quickLinkAccountDeletion": "Delete account",
+      "supportTitle": "Support",
+      "supportHelpCenter": "Help Center",
+      "supportPrivacy": "Privacy Policy",
+      "supportFaqs": "FAQs",
+      "supportTerms": "Terms & Conditions",
+      "supportRefund": "Refund Policy",
+      "newsletterTitle": "Need help getting started?",
+      "newsletterBody": "*Use the help center or contact the team if you need help connecting Telegram channels, MT accounts, or execution rules.",
+      "newsletterPlaceholder": "Your email address",
+      "copyright": "Copyright © 2025 Tragram. All Rights Reserved.",
+      "socialsTitle": "Follow us"
+    },
+    "notFound": {
+      "title": "Page not found",
+      "breadcrumbHome": "Home",
+      "breadcrumbActive": "404 error page",
+      "errorTitle": "Oops! page not found",
+      "errorBody": "The page you are looking for does not exist.",
+      "backHome": "Back to home"
+    },
+    "preloader": {
+      "alt": "Loading Tragram"
+    },
+    "helpCenterPage": {
+      "kicker": "Help Center",
+      "title": "Help Center",
+      "description": "Find practical setup help for connecting Telegram channels, linking MT accounts, and controlling execution rules.",
+      "sections": [
+        {
+          "title": "Getting Started",
+          "body": "Create your account, connect Telegram, and choose the channels you want Tragram to follow."
+        },
+        {
+          "title": "Execution Controls",
+          "body": "See how execution rules, symbol filters, sizing rules, and pause controls affect what can be executed."
+        },
+        {
+          "title": "Security & Access",
+          "body": "Review account access, authentication steps, and how connected sessions are managed."
+        },
+        {
+          "title": "Billing & Plans",
+          "body": "Understand plan limits for channels and MT accounts, and manage renewals or upgrades."
+        }
+      ],
+      "contactPrefix": "Still need help?",
+      "contactLinkLabel": "Contact us",
+      "contactSuffix": " and we will get back to you shortly."
+    },
+    "refundPolicyPage": {
+      "kicker": "Refund Policy",
+      "title": "Refund Policy",
+      "description": "Review our refund policy for subscriptions and plan changes.",
+      "sections": [
+        {
+          "title": "Eligibility",
+          "body": "Read the published refund policy for eligibility and exclusions; do not assume unused time is refundable."
+        },
+        {
+          "title": "How to Request",
+          "body": "Send a request to support with your account email and invoice reference."
+        },
+        {
+          "title": "Processing Timeline",
+          "body": "Refund processing depends on the purchase channel and payment provider; refer to the published policy."
+        }
+      ],
+      "contactPrefix": "Questions about refunds?",
+      "contactLinkLabel": "Contact us",
+      "contactSuffix": " for clarification."
+    }
+  }
+}

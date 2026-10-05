@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 866 664" role="img" aria-labelledby="title"><title id="title">Tragram alternate gradient symbol</title><defs><path id="symbol" d="M2055 6549 c-258 -34 -525 -115 -750 -229 -384 -194 -703 -493 -928
+-868 -120 -199 -193 -371 -246 -577 -19 -72 -51 -228 -51 -247 0 -5 657 -8
+1460 -8 l1459 0 4 -1037 c2 -945 4 -1046 20 -1128 40 -202 134 -418 255 -590
+76 -106 264 -295 382 -383 100 -75 227 -171 726 -552 329 -251 611 -465 868
+-661 87 -66 186 -134 220 -152 55 -28 70 -31 151 -32 82 0 95 3 144 30 29 16
+70 49 92 73 74 84 70 14 67 1208 -3 1069 -3 1069 -25 1149 -33 118 -121 286
+-202 385 -65 80 -165 174 -331 310 -37 30 -114 94 -172 143 l-105 87 -6 332
+c-4 182 -7 441 -7 574 l0 243 798 4 c866 3 831 1 1074 63 130 32 237 73 395
+149 351 168 659 444 878 785 144 225 274 541 325 790 11 58 23 115 26 128 l4
+22 -3227 -1 c-1828 -1 -3258 -5 -3298 -10z" transform="translate(0 664) scale(0.1 -0.1)" fill-rule="evenodd"/><clipPath id="clip"><use href="#symbol"/></clipPath><linearGradient id="bar" x1="0%" y1="0%" x2="100%" y2="0%"><stop stop-color="#01c4fb"/><stop offset="1" stop-color="#0049fb"/></linearGradient><linearGradient id="stem" x1="0%" y1="0%" x2="100%" y2="100%"><stop stop-color="#003cbc"/><stop offset="1" stop-color="#00f6fc"/></linearGradient><linearGradient id="facet" x1="0%" y1="0%" x2="100%" y2="100%"><stop stop-color="#0160e3"/><stop offset="1" stop-color="#003cbc"/></linearGradient></defs><rect width="866" height="202" fill="url(#bar)" clip-path="url(#clip)"/><rect y="202" width="866" height="462" fill="url(#stem)" clip-path="url(#clip)"/><path d="M 362 202 L 508 202 L 508 316 Z" fill="url(#facet)" clip-path="url(#clip)"/></svg>

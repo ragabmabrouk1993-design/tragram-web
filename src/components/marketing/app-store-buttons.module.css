@@ -1,0 +1,52 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: clamp(12px, 2vw, 24px);
+}
+
+.link {
+  display: block;
+  flex: 0 1 180px;
+  max-width: 100%;
+  border-radius: 9px;
+  line-height: 0;
+  transition: transform 180ms ease;
+}
+
+.link:hover {
+  transform: translateY(-2px);
+}
+
+.link:focus-visible {
+  outline: 3px solid currentColor;
+  outline-offset: 4px;
+}
+
+.badge {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 480px) {
+  .root {
+    width: 100%;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .link {
+    width: min(180px, 100%);
+    margin-inline: auto;
+    flex-basis: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .link {
+    transition: none;
+  }
+}

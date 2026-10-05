@@ -1,0 +1,16 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.tragram.app",
+      "sha256_cert_fingerprints": [
+        "6E:30:FF:DD:D0:E4:E4:AD:4F:98:1A:49:57:23:C9:B2:6C:8D:79:54:C9:D4:51:7B:46:1C:62:CE:09:49:7B:B4",
+        "FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C",
+        "31:52:FC:84:36:DB:2D:1D:AC:9F:BE:D2:4B:31:7C:26:7D:21:A2:31:F8:C4:7D:53:70:FE:F3:BF:84:5F:86:05"
+      ]
+    }
+  }
+]

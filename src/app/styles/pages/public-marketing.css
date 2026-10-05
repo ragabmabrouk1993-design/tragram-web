@@ -1,0 +1,12 @@
+#public-route-root .reveal,
+#public-route-root .text-anime-style-3 {
+  opacity: 1;
+  transform: none;
+  transition: opacity 0.55s ease, transform 0.55s ease;
+}
+
+#public-route-root .reveal.tg-in-view,
+#public-route-root .text-anime-style-3.tg-in-view {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}

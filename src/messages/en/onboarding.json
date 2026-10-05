@@ -1,0 +1,42 @@
+{
+  "onboardingPage": {
+    "brand": "Tragram",
+    "skip": "Skip",
+    "back": "Back",
+    "next": "Next",
+    "getStarted": "Get Started",
+    "mobilePreview": "Use Tragram on the web or download the official app",
+    "slides": [
+      {
+        "heading": "Connect Telegram signals to MT4/MT5",
+        "subheading": "Tragram",
+        "body": "Built for traders who want to copy signals to their MT account with clear rules and full control."
+      },
+      {
+        "heading": "See your accounts, channels, and trades in one place",
+        "subheading": "Overview",
+        "body": "Track your balance, connected accounts, channels, and open orders from one screen."
+      },
+      {
+        "heading": "Connect Telegram and choose the channels you follow",
+        "subheading": "Telegram",
+        "body": "Connect your authorized Telegram account, select channels and check connection status before enabling execution."
+      },
+      {
+        "heading": "Connect MT4/MT5 to receive trades",
+        "subheading": "MT4/MT5",
+        "body": "Add your server and login details securely so signals can open trades on your MT account."
+      },
+      {
+        "heading": "Select the execution account",
+        "subheading": "MT account",
+        "body": "Your access may allow several connections. New entries target the selected execution account, not all accounts simultaneously."
+      },
+      {
+        "heading": "Review your current access",
+        "subheading": "Free Basic",
+        "body": "Tragram currently provides Free Basic access. Paid purchases and upgrades are unavailable. Your account shows your actual features and limits."
+      }
+    ]
+  }
+}

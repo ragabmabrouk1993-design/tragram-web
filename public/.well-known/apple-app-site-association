@@ -1,0 +1,17 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "U3NFU34Q53.com.tragram.app"
+        ],
+        "components": [
+          {
+            "/": "/ref/*",
+            "comment": "Referral links"
+          }
+        ]
+      }
+    ]
+  }
+}

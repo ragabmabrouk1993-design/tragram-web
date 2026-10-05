@@ -1,0 +1,219 @@
+{
+  "reportsPage": {
+    "title": "التقارير",
+    "tabsAria": "أقسام التقارير",
+    "tabs": {
+      "performance": "الأداء",
+      "compare": "المقارنة",
+      "history": "السجل"
+    },
+    "hero": {
+      "filterAria": "فتح فلاتر التقارير"
+    },
+    "commandCenter": {
+      "eyebrow": "مساحة التحليلات",
+      "subtitle": "راجع أداء الحساب والتقارير المحفوظة وسجل الصفقات المغلقة.",
+      "account": "{name} · حساب {platform} {account}",
+      "noAccount": "لا يوجد حساب MT محدد",
+      "actionsAria": "إجراءات التقارير",
+      "filter": "تصفية",
+      "refresh": "تحديث التقارير",
+      "export": "تصدير جدول التقرير"
+    },
+    "kpis": {
+      "netPnl": "صافي الربح والخسارة",
+      "trades": "الصفقات",
+      "winRate": "نسبة الربح",
+      "profitFactor": "عامل الربح",
+      "grossProfit": "إجمالي الربح",
+      "grossLoss": "إجمالي الخسارة"
+    },
+    "states": {
+      "subscriptionTitle": "التقارير تتطلب اشتراكًا نشطًا",
+      "subscriptionBody": "اشترك في خطة تتضمن الوصول إلى التقارير لفتح إنشاء التقارير وسجل الصفقات.",
+      "subscriptionAction": "عرض الاشتراك",
+      "noAccountTitle": "اربط حساب MT لعرض التقارير",
+      "noAccountBody": "يتم حساب التقارير من حساب MT المحدد وسجل صفقاته المغلقة.",
+      "partialTitle": "تعذر تحديث بعض بيانات التقارير",
+      "partialBody": "ستبقى البيانات الحالية ظاهرة. أعد المحاولة لتحميل الأقسام الناقصة.",
+      "retry": "إعادة المحاولة"
+    },
+    "performance": {
+      "kicker": "الربح والخسارة",
+      "subtitle": "يعرض ملخص الأرباح والخسائر عبر الزمن.",
+      "totalProfit": "إجمالي الربح",
+      "rangeOptions": {
+        "today": "اليوم",
+        "week": "الأسبوع",
+        "month": "الشهر",
+        "all": "كل الوقت",
+        "custom": "مخصص"
+      },
+      "exportAria": "تصدير الجدول",
+      "chartAria": "مخطط اتجاه الأرباح",
+      "trendSummary": "تحرك الاتجاه من {start} إلى {end} بتغير قدره {delta}.",
+      "rangeSummary": "{range}: صافي الربح والخسارة {net} عبر {trades} صفقات مغلقة. إجمالي الربح {profit}؛ إجمالي الخسارة {loss}.",
+      "rangeSummaryEmpty": "{range}: لا توجد صفقات مغلقة في هذا النطاق بعد.",
+      "dataError": "تعذر تحميل بيانات الأداء. حدّث التقارير وحاول مرة أخرى.",
+      "dataEmpty": "لا توجد بيانات أداء حتى الآن."
+    },
+    "symbols": {
+      "kicker": "الرموز",
+      "subtitle": "ملخص الأرباح لجميع الرموز.",
+      "totalProfit": "إجمالي الربح",
+      "all": "الكل",
+      "empty": "لا توجد بيانات رموز حتى الآن."
+    },
+    "compare": {
+      "summaryKicker": "المقارنة",
+      "summarySubtitle": "رتّب ما يقود فترة التقرير المحددة عبر الرموز وقنوات الإشارات واتجاه الصفقة.",
+      "reviewTrades": "مراجعة الصفقات",
+      "symbolsKicker": "الرموز",
+      "symbolsSubtitle": "اعرف أي الأدوات تساعد الأداء أو تضغط عليه.",
+      "channelsKicker": "قنوات الإشارات",
+      "channelsSubtitle": "قارن النتائج المحققة من القنوات التي أنتجت صفقات مغلقة.",
+      "directionKicker": "اتجاه الصفقة",
+      "directionSubtitle": "تحقق ما إذا كانت إشارات الشراء أو البيع تحمل الفترة المحددة.",
+      "symbolsEmpty": "لا توجد مقارنات رموز حتى الآن.",
+      "channelsEmpty": "لا توجد مقارنات قنوات حتى الآن.",
+      "directionEmpty": "لا توجد بيانات اتجاه صفقات حتى الآن.",
+      "symbolFallback": "رمز غير معروف",
+      "channelFallback": "قناة",
+      "closedTradesScope": "الصفقات المغلقة ضمن الفلاتر الحالية",
+      "rankLabel": "الترتيب {rank}",
+      "notAvailable": "غير متاح",
+      "summary": {
+        "trades": "الصفقات المغلقة",
+        "symbolLeader": "أفضل رمز",
+        "channelLeader": "أفضل قناة",
+        "directionLeader": "اتجاه أقوى"
+      },
+      "metric": {
+        "trades": "{count} صفقات",
+        "winRate": "نسبة ربح {value}",
+        "average": "متوسط {value}",
+        "impact": "{value} من تأثير القسم"
+      },
+      "signalsSummary": "تم تنفيذ {executed}/{total} إشارة",
+      "signalsPending": "إحصاءات الإشارات قيد التحديث",
+      "headers": {
+        "symbol": "الرمز",
+        "trades": "الصفقات",
+        "winRate": "نسبة الربح",
+        "profit": "الربح (USD)",
+        "channel": "القناة",
+        "orders": "أوامر التداول"
+      }
+    },
+    "history": {
+      "title": "السجل",
+      "subtitle": "الصفقات المغلقة المطابقة لفلاتر التقرير الحالية.",
+      "empty": "لا يوجد سجل صفقات حتى الآن.",
+      "filteredEmpty": "لا توجد صفقات مغلقة تطابق هذه الفلاتر.",
+      "showing": "يتم عرض {count} صفقة",
+      "loadMore": "تحميل المزيد من الصفقات",
+      "loadingMore": "جارٍ تحميل الصفقات…",
+      "openDetails": "فتح تفاصيل صفقة {symbol}",
+      "recent": "الأحدث",
+      "buy": "شراء",
+      "sell": "بيع",
+      "win": "ربح",
+      "loss": "خسارة",
+      "atLabel": "عند",
+      "lotLabel": "لوت",
+      "headers": {
+        "trade": "الصفقة",
+        "channel": "القناة",
+        "entry": "الدخول",
+        "closed": "الإغلاق",
+        "result": "النتيجة",
+        "pnl": "صافي الربح والخسارة"
+      },
+      "details": {
+        "title": "تفاصيل الصفقة",
+        "kicker": "صفقة مغلقة",
+        "close": "إغلاق تفاصيل الصفقة",
+        "loading": "جارٍ تحميل تفاصيل الصفقة…",
+        "error": "تعذر تحميل تفاصيل الصفقة كاملة. حدّث الصفحة وحاول مرة أخرى.",
+        "netPnl": "صافي الربح والخسارة",
+        "ticket": "التذكرة",
+        "account": "حساب MT",
+        "channel": "القناة",
+        "type": "نوع الأمر",
+        "opened": "وقت الفتح",
+        "closed": "وقت الإغلاق",
+        "entryPrice": "سعر الدخول",
+        "closePrice": "سعر الإغلاق",
+        "stopLoss": "وقف الخسارة",
+        "takeProfit": "جني الربح",
+        "commission": "العمولة",
+        "swap": "السواب",
+        "closeReason": "سبب الإغلاق",
+        "tpLevel": "مستوى TP"
+      }
+    },
+    "generated": {
+      "title": "التقارير المنشأة",
+      "subtitle": "أنشئ وراجع لقطات الأداء المحفوظة.",
+      "types": {
+        "DAILY": "يومي",
+        "WEEKLY": "أسبوعي",
+        "MONTHLY": "شهري"
+      },
+      "generating": "جارٍ الإضافة…",
+      "queued": "تم طلب تقرير {type}. راجع قائمة التقارير بعد قليل.",
+      "queueError": "تعذر بدء إنشاء التقرير. تحقق من قائمة التقارير قبل المحاولة مرة أخرى.",
+      "empty": "لا توجد تقارير منشأة حتى الآن.",
+      "generatedAt": "تم الإنشاء",
+      "periodFallback": "الفترة غير متاحة",
+      "pending": "قيد الانتظار"
+    },
+    "membersHidden": "الأعضاء مخفيون",
+    "channelFallback": "قناة بدون اسم",
+    "channelHandleFallback": "@channel",
+    "channelPrivateFallback": "قناة خاصة",
+    "membersSuffix": " عضو",
+    "filters": {
+      "title": "تصفية",
+      "closeAria": "إغلاق الفلاتر",
+      "selectChannels": "اختر القنوات",
+      "selectSymbols": "اختر الرموز",
+      "accountScope": "الحساب",
+      "accountFallback": "حساب تداول",
+      "noAccounts": "لا توجد حسابات MT متاحة.",
+      "appliesToAll": "كل الأقسام",
+      "optional": "اختياري",
+      "anyChannel": "أي قناة",
+      "anySymbol": "أي رمز",
+      "time": "الوقت",
+      "type": "النوع",
+      "result": "النتيجة",
+      "reportType": "نوع التقرير",
+      "historyOnly": "الصفقات المغلقة",
+      "generatedOnly": "التقارير المنشأة",
+      "allSides": "كل الاتجاهات",
+      "allResults": "كل النتائج",
+      "allReports": "كل التقارير",
+      "reportTypeChip": "تقارير {type}",
+      "from": "من",
+      "to": "إلى",
+      "apply": "تطبيق",
+      "applyCount": "تطبيق {count} فلاتر",
+      "reset": "إعادة ضبط",
+      "searchChannels": "ابحث في القنوات",
+      "searchSymbols": "ابحث في الرموز",
+      "noChannels": "لا توجد قنوات مطابقة لهذا البحث.",
+      "noSymbols": "لا توجد رموز مطابقة لهذا البحث.",
+      "dateErrorMissing": "يرجى اختيار التاريخين.",
+      "dateErrorOrder": "يجب أن يكون تاريخ النهاية بعد أو مساويًا لتاريخ البداية.",
+      "selectError": "يرجى اختيار قناة واحدة على الأقل ورمز واحد.",
+      "activeAria": "فلاتر التقارير النشطة",
+      "clearAll": "مسح الكل",
+      "removeChannelAria": "إزالة {name}",
+      "removeSymbolAria": "إزالة {name}"
+    },
+    "buttons": {
+      "select": "اختيار"
+    }
+  }
+}

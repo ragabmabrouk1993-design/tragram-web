@@ -1,0 +1,71 @@
+{
+  "featuresPage": {
+    "badge": "Features",
+    "heading": "The control center for user-driven trading automation",
+    "intro": "Tragram combines a responsive mobile experience with a robust backend: execution decisions remain fully user-controlled, configurations sync instantly across devices, and the dashboard surfaces real-time system health.",
+    "primaryCta": "Get Started",
+    "secondaryCta": "Sign In",
+    "coreLabel": "Core",
+    "securityLabel": "Security",
+    "coreFeatures": [
+      {
+        "title": "Real-time dashboard",
+        "copy": "Monitor account balance, equity, open trades, and key indicators in a single mobile-friendly view.",
+        "detail": "Clean layouts with position lists and actionable controls ensure critical data is always visible."
+      },
+      {
+        "title": "Channel automation",
+        "copy": "Connect Telegram channels and execute signals conditionally while maintaining full control over symbols and risk limits.",
+        "detail": "Channel cards display signal history, preview upcoming orders, and provide quick access to automation controls."
+      },
+      {
+        "title": "Reports & filtering",
+        "copy": "Analyze executed trades, evaluate performance, and export reports directly from the dashboard.",
+        "detail": "Filter by date, symbol, or channel, with quick export and sharing options."
+      }
+    ],
+    "securityFeatures": [
+      {
+        "title": "Authentication flow",
+        "copy": "Clear verification flows guide users through login with minimal friction.",
+        "detail": "Timers, helper text, and resend options ensure a consistent sign-in experience."
+      },
+      {
+        "title": "Inline validation",
+        "copy": "Real-time validation reduces errors and keeps input data accurate.",
+        "detail": "Fields highlight issues instantly so users can correct them before submission."
+      },
+      {
+        "title": "Plan & billing controls",
+        "copy": "Users can manage subscriptions directly from their profile, including upgrades, downgrades, and plan changes.",
+        "detail": "Billing details, renewal cycles, and actions are clearly displayed for full transparency."
+      }
+    ],
+    "mobileSectionTitle": "Mobile experience",
+    "mobileSectionSubtitle": "Flows inspired by dashboard, channels, reports, and profile screens.",
+    "mobileBadge": "Mobile-first",
+    "mobileStories": [
+      {
+        "title": "Dashboard",
+        "ops": [
+          "Live P&L, equity, and position status with quick actions.",
+          "Access MT accounts or reports in a single interaction."
+        ]
+      },
+      {
+        "title": "Channels workspace",
+        "ops": [
+          "Browse Telegram channels, mark favorites, and configure symbols.",
+          "View recent signals and manage automation safely."
+        ]
+      },
+      {
+        "title": "Reports & profile",
+        "ops": [
+          "Filter reports by date or symbol and export results.",
+          "Manage plans, billing, and account settings in one place."
+        ]
+      }
+    ]
+  }
+}

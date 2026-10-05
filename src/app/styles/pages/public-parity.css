@@ -1,0 +1,114 @@
+#public-route-root .page-header {
+  padding-top: 248px;
+  padding-bottom: 140px;
+  margin-top: 16px;
+}
+
+#public-route-root .page-header-box h1 {
+  font-size: clamp(52px, 5.2vw, 78px);
+}
+
+#public-route-root .error-page {
+  padding-top: 96px;
+  padding-bottom: 116px;
+}
+
+#public-route-root .error-page-image {
+  display: flex;
+  justify-content: center;
+}
+
+#public-route-root .error-page-image img {
+  display: block;
+  width: min(100%, 700px);
+}
+
+#public-route-root .error-page-content .section-title {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#public-route-root .error-page-content .section-title p {
+  margin-top: 14px;
+  margin-bottom: 22px;
+}
+
+#public-route-root .hero-elite {
+  padding-top: 232px;
+}
+
+@media only screen and (max-width: 991px) {
+  #public-route-root .hero-elite {
+    padding-top: 148px;
+  }
+
+  #public-route-root .hero-content-elite .section-title h1 {
+    margin-top: 10px;
+  }
+
+  #public-route-root .hero-image-box-elite {
+    margin-top: 26px;
+  }
+
+  #public-route-root .page-header {
+    padding-top: 154px;
+    padding-bottom: 88px;
+    margin-top: 10px;
+  }
+
+  #public-route-root .page-header-box h1 {
+    font-size: clamp(36px, 10vw, 52px);
+    margin-bottom: 8px;
+  }
+
+  #public-route-root .page-features {
+    padding-top: 72px;
+  }
+
+  #public-route-root .page-features .key-features-item {
+    min-height: 272px;
+    margin-bottom: 18px;
+  }
+
+  #public-route-root .page-pricing {
+    padding-top: 72px;
+  }
+
+  #public-route-root .page-pricing .pricing-benefit-list {
+    margin-top: 14px;
+  }
+
+  #public-route-root .page-faqs {
+    padding-top: 66px;
+  }
+
+  #public-route-root .page-faqs .page-single-sidebar {
+    margin-bottom: 22px;
+  }
+
+  #public-route-root .page-faqs .page-single-faqs .section-title {
+    margin-bottom: 18px;
+  }
+
+  #public-route-root .contact-info-list {
+    padding-top: 66px;
+  }
+
+  #public-route-root .contact-info-list .contact-info-list-box {
+    gap: 16px;
+  }
+
+  #public-route-root .page-contact-us {
+    padding-top: 72px;
+  }
+
+  #public-route-root .error-page {
+    padding-top: 68px;
+    padding-bottom: 84px;
+  }
+
+  #public-route-root .error-page-image {
+    margin-bottom: 18px;
+  }
+}

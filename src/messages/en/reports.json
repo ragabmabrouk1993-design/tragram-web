@@ -1,0 +1,219 @@
+{
+  "reportsPage": {
+    "title": "Reports",
+    "tabsAria": "Reports sections",
+    "tabs": {
+      "performance": "Performance",
+      "compare": "Compare",
+      "history": "History"
+    },
+    "hero": {
+      "filterAria": "Open reports filters"
+    },
+    "commandCenter": {
+      "eyebrow": "Analytics workspace",
+      "subtitle": "Review account performance, generated reports, and closed trade history.",
+      "account": "{name} · {platform} account {account}",
+      "noAccount": "No selected MT account",
+      "actionsAria": "Reports actions",
+      "filter": "Filter",
+      "refresh": "Refresh reports",
+      "export": "Export report sheet"
+    },
+    "kpis": {
+      "netPnl": "Net PnL",
+      "trades": "Trades",
+      "winRate": "Win rate",
+      "profitFactor": "Profit factor",
+      "grossProfit": "Gross profit",
+      "grossLoss": "Gross loss"
+    },
+    "states": {
+      "subscriptionTitle": "Reports require an active subscription",
+    "subscriptionBody": "Subscribe to a plan with Reports access to unlock report generation and trade history.",
+      "subscriptionAction": "View subscription",
+      "noAccountTitle": "Connect an MT account to populate reports",
+      "noAccountBody": "Reports are calculated from the selected MT account and its closed trade history.",
+      "partialTitle": "Some report data could not be refreshed",
+      "partialBody": "Existing data remains visible. Retry to reload the missing panels.",
+      "retry": "Retry"
+    },
+    "performance": {
+      "kicker": "Profit & Loss",
+      "subtitle": "Summarizes gains and losses over time.",
+      "totalProfit": "Total Profit",
+      "rangeOptions": {
+        "today": "Today",
+        "week": "Week",
+        "month": "Month",
+        "all": "All time",
+        "custom": "Custom"
+      },
+      "exportAria": "Export sheet",
+      "chartAria": "Profit trend chart",
+      "trendSummary": "Trend moved from {start} to {end}, a change of {delta}.",
+      "rangeSummary": "{range}: net P&L is {net} across {trades} closed trades. Gross profit {profit}; gross loss {loss}.",
+      "rangeSummaryEmpty": "{range}: no closed trades in this range yet.",
+      "dataError": "We couldn't load performance data. Refresh reports and try again.",
+      "dataEmpty": "No performance data yet."
+    },
+    "symbols": {
+      "kicker": "Symbols",
+      "subtitle": "Summary of profits across all symbols.",
+      "totalProfit": "Total Profit",
+      "all": "All",
+      "empty": "No symbol data yet."
+    },
+    "compare": {
+      "summaryKicker": "Compare",
+      "summarySubtitle": "Rank what is driving the selected report period across symbols, signal channels, and trade direction.",
+      "reviewTrades": "Review trades",
+      "symbolsKicker": "Symbols",
+      "symbolsSubtitle": "See which instruments are helping or hurting performance.",
+      "channelsKicker": "Signal channels",
+      "channelsSubtitle": "Compare realised results from the channels that produced closed trades.",
+      "directionKicker": "Trade direction",
+      "directionSubtitle": "Check whether buy or sell signals are carrying the selected period.",
+      "symbolsEmpty": "No symbol comparisons yet.",
+      "channelsEmpty": "No channel comparisons yet.",
+      "directionEmpty": "No trade direction data yet.",
+      "symbolFallback": "Unknown symbol",
+      "channelFallback": "Channel",
+      "closedTradesScope": "Closed trades in current filters",
+      "rankLabel": "Rank {rank}",
+      "notAvailable": "N/A",
+      "summary": {
+        "trades": "Closed trades",
+        "symbolLeader": "Leading symbol",
+        "channelLeader": "Leading channel",
+        "directionLeader": "Direction bias"
+      },
+      "metric": {
+        "trades": "{count} trades",
+        "winRate": "{value} win rate",
+        "average": "{value} avg",
+        "impact": "{value} of segment impact"
+      },
+      "signalsSummary": "{executed}/{total} signals executed",
+      "signalsPending": "Signal stats pending",
+      "headers": {
+        "symbol": "Symbol",
+        "trades": "Trades",
+        "winRate": "Win Rate",
+        "profit": "Profit (USD)",
+        "channel": "Channel",
+        "orders": "Trade Orders"
+      }
+    },
+    "history": {
+      "title": "History",
+      "subtitle": "Closed trades matching the current report filters.",
+      "empty": "No trade history yet.",
+      "filteredEmpty": "No closed trades match these filters.",
+      "showing": "Showing {count} trades",
+      "loadMore": "Load more trades",
+      "loadingMore": "Loading trades…",
+      "openDetails": "Open {symbol} trade details",
+      "recent": "Recent",
+      "buy": "Buy",
+      "sell": "Sell",
+      "win": "Win",
+      "loss": "Loss",
+      "atLabel": "at",
+      "lotLabel": "lot",
+      "headers": {
+        "trade": "Trade",
+        "channel": "Channel",
+        "entry": "Entry",
+        "closed": "Closed",
+        "result": "Result",
+        "pnl": "Net PnL"
+      },
+      "details": {
+        "title": "Trade details",
+        "kicker": "Closed trade",
+        "close": "Close trade details",
+        "loading": "Loading trade details…",
+        "error": "We couldn't load the full trade details. Refresh and try again.",
+        "netPnl": "Net PnL",
+        "ticket": "Ticket",
+        "account": "MT account",
+        "channel": "Channel",
+        "type": "Order type",
+        "opened": "Opened",
+        "closed": "Closed",
+        "entryPrice": "Entry price",
+        "closePrice": "Close price",
+        "stopLoss": "Stop loss",
+        "takeProfit": "Take profit",
+        "commission": "Commission",
+        "swap": "Swap",
+        "closeReason": "Close reason",
+        "tpLevel": "TP level"
+      }
+    },
+    "generated": {
+      "title": "Generated reports",
+      "subtitle": "Create and review saved performance snapshots.",
+      "types": {
+        "DAILY": "Daily",
+        "WEEKLY": "Weekly",
+        "MONTHLY": "Monthly"
+      },
+      "generating": "Queueing…",
+      "queued": "Your {type} report was requested. Check the reports list shortly.",
+      "queueError": "We couldn't start report generation. Check the reports list before trying again.",
+      "empty": "No generated reports yet.",
+      "generatedAt": "Generated",
+      "periodFallback": "Period not available",
+      "pending": "Pending"
+    },
+    "membersHidden": "Members hidden",
+    "channelFallback": "Untitled channel",
+    "channelHandleFallback": "@channel",
+    "channelPrivateFallback": "Private channel",
+    "membersSuffix": " members",
+    "filters": {
+      "title": "Filter",
+      "closeAria": "Close filters",
+      "selectChannels": "Select Channels",
+      "selectSymbols": "Select Symbols",
+      "accountScope": "Account",
+      "accountFallback": "Trading account",
+      "noAccounts": "No MT accounts are available.",
+      "appliesToAll": "All panels",
+      "optional": "Optional",
+      "anyChannel": "Any channel",
+      "anySymbol": "Any symbol",
+      "time": "Time",
+      "type": "Type",
+      "result": "Result",
+      "reportType": "Report type",
+      "historyOnly": "Closed trades",
+      "generatedOnly": "Generated reports",
+      "allSides": "All sides",
+      "allResults": "All results",
+      "allReports": "All reports",
+      "reportTypeChip": "{type} reports",
+      "from": "From",
+      "to": "To",
+      "apply": "Apply",
+      "applyCount": "Apply {count} filters",
+      "reset": "Reset",
+      "searchChannels": "Search channels",
+      "searchSymbols": "Search symbols",
+      "noChannels": "No channels match this search.",
+      "noSymbols": "No symbols match this search.",
+      "dateErrorMissing": "Please select both dates.",
+      "dateErrorOrder": "End date must be on or after start date.",
+      "selectError": "Select at least one channel and one symbol.",
+      "activeAria": "Active reports filters",
+      "clearAll": "Clear all",
+      "removeChannelAria": "Remove {name}",
+      "removeSymbolAria": "Remove {name}"
+    },
+    "buttons": {
+      "select": "Select"
+    }
+  }
+}

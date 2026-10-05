@@ -1,0 +1,176 @@
+{
+  "channelsPage": {
+    "title": "القنوات",
+    "loading": "جارٍ تحميل القنوات...",
+    "error": "تعذر تحميل القنوات. تحقق من اتصالك وحاول مجددًا.",
+    "health": {
+      "active": "نشطة",
+      "verifying": "جارٍ التحقق من صلاحية تيليجرام...",
+      "needsAction": "تحتاج صلاحية تيليجرام إلى إجراء",
+      "refreshDelayed": "تأخر التحديث؛ يتم عرض البيانات المحفوظة",
+      "migration": "تم اكتشاف ترحيل؛ اقبل القناة البديلة",
+      "lastVerified": "آخر تحقق {date}",
+      "refreshAccess": "تحديث الصلاحية",
+      "acceptMigration": "قبول الترحيل",
+      "refreshQueued": "تم طلب التحديث. ستتحدث قائمة القنوات عند اكتماله."
+    },
+    "notConnected": {
+      "title": "تيليجرام غير متصل",
+      "subtitle": "أعد ربط حساب تيليجرام لبدء استقبال الإشارات.",
+      "cta": "ربط"
+    },
+    "subscriptionRequired": {
+      "title": "الاشتراك مطلوب",
+      "subtitle": "اشترك في إحدى الخطط قبل ربط قنوات تيليجرام وبدء نسخ الإشارات.",
+      "cta": "اشترك الآن"
+    },
+    "empty": {
+      "title": "لا توجد قنوات",
+      "subtitle": "اختر قنوات من حساب تيليجرام لبدء نسخ الإشارات.",
+      "cta": "إضافة قنوات"
+    },
+    "mtRequired": {
+      "title": "مطلوب حساب MT",
+      "subtitle": "تنفيذ الصفقات متوقف حتى تقوم بربط حساب MT واحد على الأقل.",
+      "cta": "ربط MT4/MT5"
+    },
+    "addSheet": {
+      "title": "إضافة قنوات",
+      "empty": "تمت إضافة جميع القنوات المتاحة لهذا الحساب.",
+      "retry": "إعادة المحاولة",
+      "submit": "إضافة القنوات المحددة",
+      "selectedCount": "{count}"
+    },
+    "connect": {
+      "title": "ربط تيليجرام",
+      "subtitle": "أدخل رقم هاتفك لاستلام رمز التحقق.",
+      "phonePlaceholder": "رقم الهاتف",
+      "connect": "ربط",
+      "sending": "جارٍ الإرسال...",
+      "codeTitle": "رمز التحقق",
+      "codeSubtitle": "أدخل الرمز المرسل إلى حساب تيليجرام الخاص بك.",
+      "passwordTitle": "كلمة مرور تيليجرام",
+      "passwordSubtitle": "تم تفعيل التحقق بخطوتين. أدخل كلمة المرور.",
+      "passwordPlaceholder": "كلمة مرور تيليجرام",
+      "passwordVerify": "تأكيد كلمة المرور",
+      "resendPrefix": "لم يصلك الرمز؟",
+      "resend": "إعادة إرسال",
+      "verify": "تأكيد",
+      "verifying": "جارٍ التحقق..."
+    },
+    "deleteConfirm": {
+      "title": "حذف هذه القناة؟",
+      "yes": "نعم",
+      "no": "لا",
+      "pending": "جارٍ الحذف..."
+    },
+    "errors": {
+      "toggle": "تعذر تأكيد هذا التغيير. حدّث القناة للتحقق من إعداداتها قبل المحاولة مجددًا.",
+      "delete": "تعذر تأكيد إزالة القناة. حدّث قائمة القنوات قبل المحاولة مجددًا.",
+      "register": "تعذر تأكيد إضافة القنوات. حدّث قائمة القنوات قبل المحاولة مجددًا.",
+      "requestCode": "تعذر تأكيد إرسال الرمز. استخدمه إذا وصلك، وإلا فحاول مجددًا بعد قليل.",
+      "invalidCode": "رمز التحقق غير صحيح.",
+      "requires2fa": "يتطلب التحقق بخطوتين.",
+      "passwordRequired": "كلمة مرور تيليجرام مطلوبة.",
+      "invalidPassword": "كلمة المرور غير صحيحة.",
+      "enableRequiresMt": "قم بربط حساب MT قبل تفعيل تنفيذ الصفقات لهذه القناة.",
+      "refreshAccess": "تعذر طلب التحقق من الوصول إلى القناة. تحقق من ربط تيليجرام وحاول مجددًا.",
+      "acceptMigration": "تعذر تأكيد نقل القناة. حدّث تفاصيلها قبل المحاولة مجددًا."
+    },
+    "members": {
+      "unit": "مشترك",
+      "thousands": "{value} ألف مشترك",
+      "millions": "{value} مليون مشترك"
+    },
+    "channelFallback": "قناة بدون اسم",
+    "actions": {
+      "addChannelsAria": "إضافة قنوات",
+      "delete": "حذف",
+      "deleteChannelAria": "حذف القناة",
+      "enableChannelAria": "تفعيل القناة",
+      "disableChannelAria": "تعطيل القناة",
+      "toggleLockedAria": "لا يمكن تفعيل القناة حتى يتم ربط حساب MT."
+    },
+    "selectSheet": {
+      "title": "اختيار القنوات",
+      "empty": "لا توجد قنوات.",
+      "select": "اختيار",
+      "selectedCount": "{count}"
+    }
+  },
+  "channelDetailPage": {
+    "loading": "جارٍ تحميل القناة...",
+    "error": "تعذر تحميل هذه القناة. حدّث الصفحة وحاول مجددًا.",
+    "timeRanges": {
+      "week": "أسبوع",
+      "month": "شهر",
+      "threeMonths": "3 أشهر",
+      "year": "سنة",
+      "all": "الكل"
+    },
+    "chart": {
+      "totalProfit": "إجمالي الربح",
+      "loading": "جارٍ تحميل الرسم...",
+      "error": "تعذر تحميل الرسم البياني. يرجى المحاولة بعد قليل.",
+      "empty": "لا يوجد سجل تداول لهذه الفترة.",
+      "tooltipLabel": "إجمالي الربح",
+      "periodLabel": "ربح الفترة",
+      "cumulativeLabel": "التراكمي",
+      "rangeSummary": "الفترة: {range} • {points} نقطة"
+    },
+    "members": {
+      "unit": "مشترك",
+      "thousands": "{value} ألف مشترك",
+      "millions": "{value} مليون مشترك"
+    },
+    "channelSubtitleFallback": "اشتراك",
+    "orders": {
+      "tabs": {
+        "open": "مفتوحة",
+        "limit": "معلقة",
+        "closed": "مغلقة"
+      },
+      "loading": "جارٍ تحميل الصفقات...",
+      "error": "تعذر تحميل الأوامر. حدّث الصفحة أو تحقق منها في MetaTrader.",
+      "empty": "لا توجد صفقات.",
+      "pagination": {
+        "previous": "السابق",
+        "next": "التالي",
+        "pageLabel": "الصفحة {page} من {total}"
+      },
+      "sideValues": {
+        "buy": "شراء",
+        "sell": "بيع"
+      },
+      "statusValues": {
+        "open": "مفتوحة",
+        "pending": "معلقة",
+        "closed": "مغلقة",
+        "cancelled": "ملغاة",
+        "limit": "معلقة"
+      },
+      "closeReasonValues": {
+        "sl": "SL",
+        "tp": "TP",
+        "manual": "يدوي"
+      },
+      "lotLabel": "لوت",
+      "atLabel": "عند",
+      "volumePending": "حجم اللوت غير محدد",
+      "tpProgress": {
+        "takenShort": "تم",
+        "remainingShort": "متبقي",
+        "notAllocatedShort": "غير مخصص"
+      }
+    },
+    "buttons": {
+      "settings": "إعدادات القناة",
+      "delete": "حذف",
+      "deleting": "جارٍ الحذف..."
+    },
+    "stats": {
+      "financialResult": "النتيجة المالية",
+      "return": "العائد"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+/* Shared overlay scale for page-level sheets/modals */
+:root {
+  --z-overlay-nav: 20;
+  --z-overlay-backdrop: 30;
+  --z-overlay-sheet: 40;
+  --z-overlay-popover: 60;
+  --z-overlay-dialog: 80;
+}
+
+/* Generic modal primitives for future page-level consolidation */
+.ui-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(1, 8, 28, 0.65);
+  backdrop-filter: blur(6px);
+  z-index: var(--z-overlay-backdrop);
+}
+
+.ui-modal-surface {
+  position: relative;
+  z-index: calc(var(--z-overlay-backdrop) + 1);
+}

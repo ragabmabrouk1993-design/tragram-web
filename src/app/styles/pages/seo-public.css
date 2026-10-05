@@ -1,0 +1,308 @@
+#seo-route-root {
+  background:
+    radial-gradient(circle at top left, rgba(15, 107, 255, 0.18), transparent 34rem),
+    linear-gradient(180deg, #08111f 0%, #0b1220 52%, #07101d 100%);
+  color: var(--text-color);
+  min-height: 100vh;
+}
+
+#seo-route-root a {
+  color: inherit;
+}
+
+#seo-route-root .seo-header,
+#seo-route-root .seo-footer,
+#seo-route-root .seo-main {
+  margin: 0 auto;
+  max-width: 1120px;
+  width: min(100% - 32px, 1120px);
+}
+
+#seo-route-root .seo-header {
+  align-items: center;
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  padding: 22px 0;
+}
+
+#seo-route-root .seo-brand {
+  color: var(--white-color);
+  font-size: 1.35rem;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-decoration: none;
+}
+
+#seo-route-root .seo-nav {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: flex-end;
+}
+
+#seo-route-root .seo-nav a,
+#seo-route-root .seo-button {
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 999px;
+  color: rgba(238, 244, 255, 0.86);
+  display: inline-flex;
+  font-size: 0.95rem;
+  font-weight: 700;
+  line-height: 1;
+  padding: 11px 15px;
+  text-decoration: none;
+}
+
+#seo-route-root .seo-nav a:hover,
+#seo-route-root .seo-nav a:focus-visible,
+#seo-route-root .seo-button:hover,
+#seo-route-root .seo-button:focus-visible {
+  border-color: rgba(255, 255, 255, 0.32);
+  color: var(--white-color);
+  outline: none;
+}
+
+#seo-route-root .seo-nav-cta,
+#seo-route-root .seo-button-primary {
+  background: var(--accent-color);
+  border-color: var(--accent-color) !important;
+  color: var(--white-color) !important;
+}
+
+#seo-route-root .seo-main {
+  padding: clamp(34px, 7vw, 86px) 0;
+}
+
+#seo-route-root .seo-breadcrumb {
+  color: rgba(238, 244, 255, 0.66);
+  font-size: 0.92rem;
+  margin-bottom: 24px;
+}
+
+#seo-route-root .seo-breadcrumb a {
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+#seo-route-root .seo-hero {
+  max-width: 920px;
+}
+
+#seo-route-root h1 {
+  color: var(--white-color);
+  font-size: clamp(2.35rem, 7vw, 5.2rem);
+  font-weight: 800;
+  letter-spacing: 0;
+  line-height: 1;
+  margin: 0;
+}
+
+#seo-route-root .seo-intro {
+  color: rgba(238, 244, 255, 0.78);
+  font-size: clamp(1.05rem, 2.2vw, 1.28rem);
+  line-height: 1.75;
+  margin: 22px 0 0;
+  max-width: 820px;
+}
+
+#seo-route-root .seo-summary-grid,
+#seo-route-root .seo-meta-grid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 34px 0;
+}
+
+#seo-route-root .seo-summary-card,
+#seo-route-root .seo-card,
+#seo-route-root .seo-contact,
+#seo-route-root .seo-meta-grid div {
+  background: rgba(255, 255, 255, 0.045);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 18px;
+}
+
+#seo-route-root .seo-summary-card,
+#seo-route-root .seo-meta-grid div {
+  min-width: 0;
+  padding: 18px;
+}
+
+#seo-route-root .seo-summary-card span,
+#seo-route-root .seo-meta-grid dt {
+  color: rgba(238, 244, 255, 0.56);
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+#seo-route-root .seo-summary-card strong,
+#seo-route-root .seo-meta-grid dd {
+  color: var(--white-color);
+  display: block;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.45;
+  margin: 0;
+}
+
+#seo-route-root .seo-section-list {
+  display: grid;
+  gap: 18px;
+}
+
+#seo-route-root .seo-article-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 34px;
+}
+
+#seo-route-root .seo-article-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100%;
+}
+
+#seo-route-root .seo-card-kicker {
+  color: rgba(238, 244, 255, 0.56);
+  display: block;
+  font-size: 0.78rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  line-height: 1.45;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+#seo-route-root .seo-article-card-footer {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+
+#seo-route-root .seo-article-card-footer span {
+  color: rgba(238, 244, 255, 0.58);
+  font-size: 0.9rem;
+}
+
+#seo-route-root .seo-card,
+#seo-route-root .seo-contact {
+  padding: clamp(22px, 4vw, 36px);
+}
+
+#seo-route-root h2 {
+  color: var(--white-color);
+  font-size: clamp(1.45rem, 3vw, 2.15rem);
+  letter-spacing: 0;
+  line-height: 1.2;
+  margin: 0 0 14px;
+}
+
+#seo-route-root h3 {
+  color: var(--white-color);
+  font-size: 1.05rem;
+  letter-spacing: 0;
+  line-height: 1.35;
+  margin: 20px 0 8px;
+}
+
+#seo-route-root p,
+#seo-route-root li {
+  color: rgba(238, 244, 255, 0.74);
+  font-size: 1rem;
+  line-height: 1.78;
+}
+
+#seo-route-root p {
+  margin: 0 0 14px;
+}
+
+#seo-route-root p:last-child {
+  margin-bottom: 0;
+}
+
+#seo-route-root ul,
+#seo-route-root ol {
+  margin: 16px 0 0;
+  padding-left: 22px;
+}
+
+#seo-route-root .seo-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+#seo-route-root .seo-footer {
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  gap: 18px;
+  justify-content: space-between;
+  padding: 28px 0 34px;
+}
+
+#seo-route-root .seo-footer p {
+  color: rgba(238, 244, 255, 0.62);
+  font-size: 0.92rem;
+  margin: 0;
+}
+
+#seo-route-root .seo-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+#seo-route-root .seo-footer a {
+  color: rgba(238, 244, 255, 0.72);
+  font-size: 0.92rem;
+  text-decoration: none;
+}
+
+@media (max-width: 720px) {
+  #seo-route-root .seo-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  #seo-route-root .seo-nav {
+    justify-content: flex-start;
+  }
+
+  #seo-route-root .seo-summary-grid,
+  #seo-route-root .seo-meta-grid,
+  #seo-route-root .seo-article-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #seo-route-root .seo-main {
+    padding: 28px 0 58px;
+  }
+
+  #seo-route-root h1 {
+    font-size: clamp(2rem, 10vw, 2.65rem);
+    line-height: 1.06;
+  }
+
+  #seo-route-root .seo-intro {
+    font-size: 1rem;
+    line-height: 1.68;
+  }
+
+  #seo-route-root .seo-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

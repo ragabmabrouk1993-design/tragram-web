@@ -1,0 +1,176 @@
+{
+  "channelsPage": {
+    "title": "Channels",
+    "loading": "Loading channels...",
+    "error": "We could not load your channels. Check your connection and try again.",
+    "health": {
+      "active": "Active",
+      "verifying": "Verifying Telegram access...",
+      "needsAction": "Telegram access needs attention",
+      "refreshDelayed": "Refresh delayed; saved data is shown",
+      "migration": "Migration detected; accept the replacement channel",
+      "lastVerified": "Last verified {date}",
+      "refreshAccess": "Refresh access",
+      "acceptMigration": "Accept migration",
+      "refreshQueued": "Refresh requested. Your channel list will update when it is ready."
+    },
+    "notConnected": {
+      "title": "Telegram Not Connected",
+      "subtitle": "Reconnect your Telegram account to start receiving signals.",
+      "cta": "Connect"
+    },
+    "subscriptionRequired": {
+      "title": "Subscription Required",
+      "subtitle": "Subscribe to a plan before connecting Telegram channels and copying signals.",
+      "cta": "Subscribe Now"
+    },
+    "empty": {
+      "title": "No Channels",
+      "subtitle": "Select channels from your Telegram account to start copying signals.",
+      "cta": "Add Channels"
+    },
+    "mtRequired": {
+      "title": "MT Account Required",
+      "subtitle": "Signal execution is disabled until you connect at least one MT account.",
+      "cta": "Connect MT4/MT5"
+    },
+    "addSheet": {
+      "title": "Add Channels",
+      "empty": "All available channels are already linked to this MT account.",
+      "retry": "Retry",
+      "submit": "Add Selected Channels",
+      "selectedCount": "{count}"
+    },
+    "connect": {
+      "title": "Connect Telegram",
+      "subtitle": "Enter your phone number to receive a verification code.",
+      "phonePlaceholder": "Phone number",
+      "connect": "Connect",
+      "sending": "Sending...",
+      "codeTitle": "Verification Code",
+      "codeSubtitle": "Enter the code sent to your Telegram account.",
+      "passwordTitle": "Telegram Password",
+      "passwordSubtitle": "Two-factor authentication is enabled. Enter your Telegram password.",
+      "passwordPlaceholder": "Telegram password",
+      "passwordVerify": "Verify Password",
+      "resendPrefix": "Didn’t receive the code?",
+      "resend": "Resend",
+      "verify": "Verify",
+      "verifying": "Verifying..."
+    },
+    "deleteConfirm": {
+      "title": "Delete this channel?",
+      "yes": "Yes",
+      "no": "No",
+      "pending": "Deleting..."
+    },
+    "errors": {
+      "toggle": "We could not confirm this change. Refresh the channel to check its settings before trying again.",
+      "delete": "We could not confirm whether the channel was removed. Refresh your channel list before trying again.",
+      "register": "We could not confirm whether your channels were added. Refresh your channel list before trying again.",
+      "requestCode": "We could not confirm that a code was sent. If it arrives, use it; otherwise try again shortly.",
+      "invalidCode": "Invalid verification code.",
+      "requires2fa": "Two-factor authentication is required.",
+      "passwordRequired": "Telegram password is required.",
+      "invalidPassword": "Invalid Telegram password.",
+      "enableRequiresMt": "Connect an MT account before enabling signal execution for this channel.",
+      "refreshAccess": "We could not request a channel access check. Check your Telegram connection and try again.",
+      "acceptMigration": "We could not confirm the channel move. Refresh the channel details before trying again."
+    },
+    "members": {
+      "unit": "members",
+      "thousands": "{value}K members",
+      "millions": "{value}M members"
+    },
+    "channelFallback": "Untitled Channel",
+    "actions": {
+      "addChannelsAria": "Add channels",
+      "delete": "Delete",
+      "deleteChannelAria": "Delete channel",
+      "enableChannelAria": "Enable channel",
+      "disableChannelAria": "Disable channel",
+      "toggleLockedAria": "Channel cannot be enabled until an MT account is connected."
+    },
+    "selectSheet": {
+      "title": "Select Channels",
+      "empty": "No channels available.",
+      "select": "Select",
+      "selectedCount": "{count}"
+    }
+  },
+  "channelDetailPage": {
+    "loading": "Loading channel...",
+    "error": "We could not load this channel. Refresh the page and try again.",
+    "timeRanges": {
+      "week": "Week",
+      "month": "Month",
+      "threeMonths": "3 Months",
+      "year": "Year",
+      "all": "All"
+    },
+    "chart": {
+      "totalProfit": "Total Profit",
+      "loading": "Loading chart...",
+      "error": "We could not load this chart. Please try again shortly.",
+      "empty": "No trading history available for this period.",
+      "tooltipLabel": "Total Profit",
+      "periodLabel": "Period PnL",
+      "cumulativeLabel": "Cumulative",
+      "rangeSummary": "Range: {range} • {points} points"
+    },
+    "members": {
+      "unit": "members",
+      "thousands": "{value}K members",
+      "millions": "{value}M members"
+    },
+    "channelSubtitleFallback": "Subscription",
+    "orders": {
+      "tabs": {
+        "open": "Open",
+        "limit": "Pending",
+        "closed": "Closed"
+      },
+      "loading": "Loading orders...",
+      "error": "We could not load your orders. Refresh the page or check them in MetaTrader.",
+      "empty": "No orders found.",
+      "pagination": {
+        "previous": "Previous",
+        "next": "Next",
+        "pageLabel": "Page {page} of {total}"
+      },
+      "sideValues": {
+        "buy": "Buy",
+        "sell": "Sell"
+      },
+      "statusValues": {
+        "open": "Open",
+        "pending": "Pending",
+        "closed": "Closed",
+        "cancelled": "Cancelled",
+        "limit": "Pending"
+      },
+      "closeReasonValues": {
+        "sl": "SL",
+        "tp": "TP",
+        "manual": "Manual"
+      },
+      "lotLabel": "lot",
+      "atLabel": "at",
+      "volumePending": "Lot size pending",
+      "tpProgress": {
+        "takenShort": "Hit",
+        "remainingShort": "Remaining",
+        "notAllocatedShort": "Not allocated"
+      }
+    },
+    "buttons": {
+      "settings": "Channel Settings",
+      "delete": "Delete",
+      "deleting": "Deleting..."
+    },
+    "stats": {
+      "financialResult": "Financial Result",
+      "return": "Return"
+    }
+  }
+}

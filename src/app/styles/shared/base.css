@@ -1,0 +1,28 @@
+html,
+body {
+  min-height: 100%;
+}
+
+html {
+  background: #050910;
+}
+
+body {
+  background: var(--body-background);
+  min-height: 100vh;
+  color: var(--foreground);
+  font-family: var(--default-font);
+  background-attachment: fixed;
+}
+
+.tragram-ltr-content {
+  direction: ltr;
+  unicode-bidi: isolate;
+  text-align: start;
+}
+
+/* Some bundled legacy styles set generic .collapse visibility rules.
+   Ensure opened accordion panels remain visible across all routes. */
+#public-route-root .accordion-collapse.collapse.show {
+  visibility: visible !important;
+}

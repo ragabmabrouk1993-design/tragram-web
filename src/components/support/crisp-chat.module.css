@@ -1,0 +1,54 @@
+.mobileLauncher {
+  position: fixed;
+  right: max(16px, env(safe-area-inset-right));
+  bottom: max(18px, env(safe-area-inset-bottom));
+  z-index: 2147483000;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  max-width: calc(100vw - 32px);
+}
+
+.openButton,
+.dismissButton {
+  border: 0;
+  box-shadow: 0 14px 36px rgba(0, 0, 0, 0.32);
+  touch-action: manipulation;
+}
+
+.openButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  max-width: calc(100vw - 92px);
+  padding: 0 16px;
+  border-radius: 999px;
+  background: #0f6bff;
+  color: #ffffff;
+  font: 700 14px/1.1 var(--font-sora), system-ui, sans-serif;
+}
+
+.openButton span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dismissButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
+  background: rgba(5, 9, 16, 0.9);
+  color: #ffffff;
+  backdrop-filter: blur(10px);
+}
+
+@media (min-width: 768px) {
+  .mobileLauncher {
+    display: none;
+  }
+}

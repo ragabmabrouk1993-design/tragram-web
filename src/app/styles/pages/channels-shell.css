@@ -1,0 +1,230 @@
+/* Channels pages and sheets */
+
+.channels-modal-backdrop {
+  background: rgba(4, 8, 15, 0.72);
+  align-items: center;
+  padding: 24px 16px;
+}
+
+.channels-shell {
+  position: relative;
+  padding-top: calc(12px + env(safe-area-inset-top));
+  padding-bottom: 120px;
+}
+
+.channels-detail-shell {
+  position: relative;
+  padding-top: calc(12px + env(safe-area-inset-top));
+}
+
+.channels-grid {
+  width: 100%;
+}
+
+.channels-sidebar {
+  display: none;
+}
+
+.channels-container {
+  width: min(640px, 100%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.channels-shell::before,
+.channels-detail-shell::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-size:
+    auto,
+    auto,
+    32px 32px,
+    32px 32px;
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.channels-shell > *,
+.channels-detail-shell > * {
+  position: relative;
+  z-index: 1;
+}
+
+.channels-shell > .dashboard-sheet-backdrop,
+.channels-detail-shell > .dashboard-sheet-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+}
+
+.channels-header {
+  position: relative;
+  padding: 8px 0 20px;
+  text-align: center;
+}
+
+.channels-header h1 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--foreground);
+}
+
+.channels-add {
+  position: absolute;
+  inset-inline-end: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 999px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  box-shadow: 0 10px 24px rgba(37, 99, 235, 0.35);
+}
+
+.channels-loading {
+  padding: 24px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.channels-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.channels-page-skeleton {
+  pointer-events: none;
+}
+
+.channels-page-skeleton-header {
+  position: relative;
+}
+
+.channels-page-skeleton-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.channels-page-skeleton-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  background: #0b1220;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.channels-page-skeleton-row .channels-row-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  flex: 1;
+}
+
+[dir='rtl'] .channels-page-skeleton-row {
+  flex-direction: row-reverse;
+}
+
+[dir='rtl'] .channels-page-skeleton-row .channels-row-info {
+  flex-direction: row-reverse;
+}
+
+.channels-page-skeleton-line,
+.channels-page-skeleton-avatar,
+.channels-page-skeleton-pill,
+.channels-page-skeleton-circle,
+.channels-page-skeleton-toggle {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.08),
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0.08)
+  );
+  background-size: 220px 100%;
+  animation: shimmer 1.2s infinite linear;
+}
+
+.channels-page-skeleton-line {
+  display: block;
+  height: 12px;
+  border-radius: 8px;
+}
+
+.channels-page-skeleton-title {
+  width: 148px;
+  height: 30px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+.channels-page-skeleton-circle {
+  position: absolute;
+  inset-inline-end: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  height: 48px;
+  border-radius: 999px;
+}
+
+.channels-page-skeleton-row {
+  min-height: 78px;
+}
+
+.channels-page-skeleton-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  flex-shrink: 0;
+}
+
+.channels-page-skeleton-copy {
+  display: grid;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+  justify-items: start;
+}
+
+[dir='rtl'] .channels-page-skeleton-copy {
+  justify-items: end;
+}
+
+.channels-page-skeleton-line-main {
+  width: min(210px, 58vw);
+}
+
+.channels-page-skeleton-line-sub {
+  width: min(170px, 44vw);
+  height: 10px;
+  opacity: 0.75;
+}
+
+.channels-page-skeleton-pill {
+  display: block;
+  width: 138px;
+  height: 26px;
+  border-radius: 999px;
+}
+
+.channels-page-skeleton-toggle {
+  width: 52px;
+  height: 28px;
+  border-radius: 999px;
+  flex-shrink: 0;
+}

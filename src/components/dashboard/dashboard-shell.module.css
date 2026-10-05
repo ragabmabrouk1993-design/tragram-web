@@ -1,0 +1,67 @@
+.shell {
+  position: relative;
+  min-height: 100vh;
+  padding: 20px 18px calc(120px + env(safe-area-inset-bottom));
+  overflow-x: clip;
+  background:
+    radial-gradient(circle at 20% 20%, rgba(26, 95, 255, 0.08), transparent 35%),
+    radial-gradient(circle at 80% 10%, rgba(27, 163, 255, 0.08), transparent 30%),
+    linear-gradient(180deg, #0b1220 0%, #050910 100%);
+}
+
+.gridBg {
+  position: relative;
+}
+
+.gridBg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(37, 99, 235, 0.22), transparent 45%),
+    radial-gradient(circle at 80% 10%, rgba(59, 130, 246, 0.18), transparent 45%),
+    linear-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size:
+    auto,
+    auto,
+    32px 32px,
+    32px 32px;
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.gridBg > * {
+  position: relative;
+  z-index: 1;
+}
+
+.shellInner {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  align-items: stretch;
+  gap: 20px;
+  max-width: 1120px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.gridBg .shellInner {
+  max-width: none;
+}
+
+@media (min-width: 900px) {
+  .shell {
+    padding: 30px 28px 72px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .gridBg .shellInner {
+    max-width: 1480px;
+    margin: 0 auto;
+  }
+}
